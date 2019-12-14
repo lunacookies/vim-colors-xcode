@@ -1,0 +1,138 @@
+Full name:   Xcode Light
+Short name:  xcodelight
+Author:      Aramis Razzaghipour <aramisnoah@gmail.com>
+Description: A Vim port of the default light Xcode 11 colourscheme
+
+Background: light
+Neovim:     yes
+
+#
+# Palette
+#
+
+Color: base0       #ffffff ~
+Color: base1       #f4f4f4 ~
+Color: base2       #e5e5e5 ~
+Color: base3       #cdcdcd ~
+Color: base4       #8a99a6 ~
+Color: base5       #5c6873 ~
+Color: base6       #262626 ~
+
+Color: aqua        #b4d8fd ~
+Color: light_aqua  #ecf5ff ~
+
+Color: deep_blue   #4e97f5 ~
+
+Color: green_wash  #edfff0 ~
+Color: red_wash    #fef0f1 ~
+Color: yellow_wash #fdfae6 ~
+
+Color: blue        #0f68a0 ~
+Color: brown       #78492a ~
+Color: dark_blue   #0b4f79 ~
+Color: pink        #ad3da4 ~
+Color: red         #d12f1b ~
+Color: strong_blue #272ad8 ~
+
+Color: dark_purple #4b21b0 ~
+Color: purple      #804fb8 ~
+
+Color: dark_teal   #23575c ~
+Color: teal        #3e8087 ~
+
+Term colors: base2     red  teal        brown
+Term colors: blue      pink purple      base6
+Term colors: base4     red  dark_teal   brown
+Term colors: dark_blue pink dark_purple base6
+
+#
+# Highlighting
+#
+
+Normal         base6       base0
+Cursor         base0       base6
+None           base6       none
+
+# Vim Interface
+
+CursorLineNr   base6       light_aqua
+FoldColumn     base3       none
+Folded         base3       base2
+LineNr         base3       none
+MatchParen     base0       deep_blue
+SignColumn     base3       none
+EndOfBuffer    base0       base0
+
+Ignore         base3       none
+
+Pmenu          base6       base1
+PmenuSbar      base1       base1
+PmenuSel       base0       deep_blue
+PmenuThumb     base2       base2
+
+ErrorMsg       red         none
+ModeMsg        base4       none
+MoreMsg        pink        none
+Question       pink        none
+WarningMsg     red         none
+
+ColorColumn    none        base1
+CursorColumn   none        light_aqua
+CursorLine     none        light_aqua
+
+QuickFixLine   base0       deep_blue
+StatusLine     base6       base2
+StatusLineNC   base6       base1
+VertSplit      base1       base1
+WildMenu       base0       deep_blue
+
+IncSearch      base0       deep_blue
+Search         base6       base2
+Visual         none        aqua
+
+DiffAdd        none        green_wash
+DiffChange     none        none
+DiffDelete     none        red_wash
+DiffText       none        yellow_wash
+
+# Syntax
+
+Comment        base4       none italic
+Constant       strong_blue none
+Error          base0       red
+Identifier     dark_blue   none
+PreProc        brown       none
+Special        dark_teal   none
+Statement      pink        none bold
+Type           teal        none
+
+Delimiter      base5       none
+Directory      blue        none
+Function       purple      none
+FunctionDef    blue        none
+Operator       base5       none
+SpecialComment base5       none italic
+String         red         none
+Title          base6       none bold
+Todo           base5       none bold
+Underlined     blue        none
+
+SpellBad       none        none guisp=red
+SpellCap       none        none guisp=red
+SpellLocal     none        none guisp=red
+SpellRare      none        none guisp=red
+
+
+# indentLine
+#let g:indentLine_color_gui  = '@guibase3'
+#let g:indentLine_color_term = @term256base3
+
+# Limelight
+#let g:limelight_conceal_guifg = '@guibase4'
+#let g:limelight_conceal_ctermfg = @term256base4
+
+Include: _links
+
+Include: _markdown
+markdownDelimiter teal      none
+markdownCode      purple    base1

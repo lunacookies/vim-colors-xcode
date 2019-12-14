@@ -1,0 +1,7 @@
+markdownBoldDelimiter       -> markdownDelimiter
+markdownBoldItalicDelimiter -> markdownDelimiter
+markdownCodeBlock           -> markdownCode
+markdownCodeDelimiter       -> markdownDelimiter
+markdownHeadingDelimiter    -> markdownDelimiter
+markdownItalicDelimiter     -> markdownDelimiter
+markdownListMarker          -> markdownDelimiter

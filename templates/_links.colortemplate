@@ -1,0 +1,87 @@
+# Vim Interface
+
+Terminal         -> Normal
+
+TabLine          -> StatusLineNC
+TabLineFill      -> StatusLineNC
+TabLineSel       -> StatusLine
+
+StatusLineTerm   -> StatusLine
+StatusLineTermNC -> StatusLineNC
+
+VisualNOS        -> Visual
+
+# Diff
+
+diffAdded          -> DiffAdd
+diffBDiffer        -> WarningMsg
+diffChanged        -> DiffChange
+diffCommon         -> WarningMsg
+diffDiffer         -> WarningMsg
+diffFile           -> Directory
+diffIdentical      -> WarningMsg
+diffIndexLine      -> Number
+diffIsA            -> WarningMsg
+diffNoEOL          -> WarningMsg
+diffOnly           -> WarningMsg
+diffRemoved        -> DiffDelete
+
+# Syntax
+
+Boolean            -> Constant
+Character          -> Constant
+Float              -> Number
+
+Conditional        -> Statement
+Exception          -> Statement
+Keyword            -> Statement
+Label              -> Statement
+Repeat             -> Statement
+StorageClass       -> Statement
+
+Define             -> PreProc
+Include            -> PreProc
+Macro              -> PreProc
+PreCondit          -> PreProc
+
+Structure          -> Type
+
+Debug              -> Special
+SpecialChar        -> Special
+Tag                -> Special
+
+Typedef            -> Identifier
+
+Noise              -> Delimiter
+StringDelimiter    -> Delimiter
+
+Conceal            -> Ignore
+NonText            -> Ignore
+SpecialKey         -> Ignore
+Whitespace         -> Ignore
+
+Searchlight        -> IncSearch
+cssBraces          -> Delimiter
+gitcommitOverflow  -> Error
+gitcommitSummary   -> Title
+helpHyperTextJump  -> Underlined
+htmlArg            -> Function
+htmlEndTag         -> Delimiter
+htmlLink           -> Underlined
+htmlSpecialTagName -> htmlTagName
+htmlTag            -> Delimiter
+htmlTagName        -> Statement
+rustDerive         -> rustAttribute
+rustDeriveTrait    -> rustDerive
+rustFuncName       -> FunctionDef
+rustIdentifier     -> Typedef
+rustModPath        -> None
+rustSelf           -> rustKeyword
+scssAttribute      -> Delimiter
+vimAutoCmdSfxList  -> Type
+vimAutoEventList   -> Identifier
+vimCmdSep          -> Special
+vimCommentTitle    -> SpecialComment
+vimContinue        -> Delimiter
+vimHighlight       -> Statement
+vimUserFunc        -> Function
