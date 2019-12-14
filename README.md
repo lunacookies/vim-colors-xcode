@@ -46,3 +46,5 @@ Light:
 | Background | `#ffffff` |           |
 
 iTerm presets for both of these are included with this repository.
+
+The font in the screenshots is [SF Mono](https://developer.apple.com/videos/play/wwdc2016/803/?time=106), which you can download [from Apple’s website](https://developer.apple.com/fonts/).
