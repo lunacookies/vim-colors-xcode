@@ -95,7 +95,7 @@ DiffText       orange       orange_wash
 
 # Syntax
 
-Comment        base5        none italic
+Comment        base5        none
 Constant       yellow       none
 Error          base0        red
 Identifier     blue         none
@@ -109,7 +109,7 @@ Directory      light_blue   none
 Function       light_purple none
 FunctionDef    light_blue   none
 Operator       base6        none
-SpecialComment base6        none italic
+SpecialComment base6        none
 String         red          none
 Title          base7        none bold
 Todo           base6        none bold
