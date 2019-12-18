@@ -115,10 +115,12 @@ Title          base7        none bold
 Todo           base6        none bold
 Underlined     light_blue   none
 
-SpellBad       none         none guisp=red
-SpellCap       none         none guisp=red
-SpellLocal     none         none guisp=red
-SpellRare      none         none guisp=red
+SpellBad       none         none undercurl
+SpellCap       none         none undercurl
+SpellLocal     none         none undercurl
+SpellRare      none         none undercurl
+
+
 
 # indentLine
 #let g:indentLine_color_gui  = '@guibase4'
