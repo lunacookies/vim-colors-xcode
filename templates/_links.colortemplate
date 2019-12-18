@@ -83,5 +83,6 @@ vimAutoEventList   -> Identifier
 vimCmdSep          -> Special
 vimCommentTitle    -> SpecialComment
 vimContinue        -> Delimiter
+vimFunction        -> FunctionDef
 vimHighlight       -> Statement
 vimUserFunc        -> Function
