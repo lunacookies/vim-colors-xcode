@@ -28,10 +28,10 @@ diffRemoved        -> DiffDelete
 
 # Syntax
 
-Boolean            -> Constant
 Character          -> Constant
 Float              -> Number
 
+Boolean            -> Statement
 Conditional        -> Statement
 Exception          -> Statement
 Keyword            -> Statement
