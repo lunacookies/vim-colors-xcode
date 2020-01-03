@@ -75,6 +75,7 @@ rustDeriveTrait    -> rustDerive
 rustFuncName       -> FunctionDef
 rustIdentifier     -> Typedef
 rustModPath        -> None
+rustQuestionMark   -> Operator
 rustSelf           -> rustKeyword
 scssAttribute      -> Delimiter
 vimAutoCmdSfxList  -> Type
