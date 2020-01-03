@@ -106,21 +106,19 @@ Type           light_teal   none
 
 Delimiter      base6        none
 Directory      light_blue   none
-Function       light_purple none
-FunctionDef    light_blue   none
+Function       purple       none
 Operator       base6        none
 SpecialComment base6        none
 String         red          none
 Title          base7        none bold
 Todo           base6        none bold
+Typedef        light_blue   none
 Underlined     light_blue   none
 
 SpellBad       none         none undercurl
 SpellCap       none         none undercurl
 SpellLocal     none         none undercurl
 SpellRare      none         none undercurl
-
-
 
 # indentLine
 #let g:indentLine_color_gui  = '@guibase4'

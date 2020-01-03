@@ -100,7 +100,7 @@ DiffText       none        yellow_wash
 Comment        base4       none
 Constant       strong_blue none
 Error          base0       red
-Identifier     dark_blue   none
+Identifier     blue        none
 PreProc        brown       none
 Special        dark_teal   none
 Statement      pink        none bold
@@ -109,19 +109,18 @@ Type           teal        none
 Delimiter      base5       none
 Directory      blue        none
 Function       purple      none
-FunctionDef    blue        none
 Operator       base5       none
 SpecialComment base5       none
 String         red         none
 Title          base6       none bold
 Todo           base5       none bold
+Typedef        dark_blue   none
 Underlined     blue        none
 
 SpellBad       none        none undercurl
 SpellCap       none        none undercurl
 SpellLocal     none        none undercurl
 SpellRare      none        none undercurl
-
 
 # indentLine
 #let g:indentLine_color_gui  = '@guibase3'

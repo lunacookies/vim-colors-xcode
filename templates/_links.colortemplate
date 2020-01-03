@@ -50,8 +50,6 @@ Debug              -> Special
 SpecialChar        -> Special
 Tag                -> Special
 
-Typedef            -> Identifier
-
 Noise              -> Delimiter
 StringDelimiter    -> Delimiter
 
@@ -60,6 +58,7 @@ NonText            -> Ignore
 SpecialKey         -> Ignore
 Whitespace         -> Ignore
 
+FunctionDef        -> Identifier
 Searchlight        -> IncSearch
 cssBraces          -> Delimiter
 gitcommitOverflow  -> Error
