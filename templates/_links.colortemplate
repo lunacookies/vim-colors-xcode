@@ -74,6 +74,7 @@ rustDerive         -> rustAttribute
 rustDeriveTrait    -> rustDerive
 rustFuncName       -> FunctionDef
 rustIdentifier     -> Typedef
+rustMacroVariable  -> rustIdentifier
 rustModPath        -> None
 rustQuestionMark   -> Operator
 rustSelf           -> rustKeyword
