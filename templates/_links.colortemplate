@@ -97,4 +97,5 @@ vimContinue        -> Delimiter
 vimFuncName        -> LibraryFunc
 vimFunction        -> FunctionDef
 vimHighlight       -> Statement
+vimOption          -> LibraryIdent
 vimUserFunc        -> LocalFunc
