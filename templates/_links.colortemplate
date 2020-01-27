@@ -66,7 +66,15 @@ SpecialKey         -> Ignore
 Whitespace         -> Ignore
 
 Searchlight        -> IncSearch
-cssBraces          -> Delimiter
+cssAtRule          -> Keyword
+cssAttr            -> Keyword
+cssBraces          -> cssNoise
+cssClassName       -> LocalIdent
+cssColor           -> cssAttr
+cssFunction        -> None
+cssIdentifier      -> LocalIdent
+cssProp            -> LibraryType
+cssPseudoClassId   -> LibraryIdent
 gitcommitOverflow  -> Error
 gitcommitSummary   -> Title
 goField            -> LocalIdent
@@ -99,7 +107,14 @@ rustFuncName       -> FunctionDef
 rustModPath        -> None
 rustQuestionMark   -> Operator
 rustSelf           -> rustKeyword
-scssAttribute      -> Delimiter
+scssAttribute      -> cssNoise
+scssInclude        -> Keyword
+scssMixin          -> Keyword
+scssMixinName      -> LocalFunc
+scssMixinParams    -> cssNoise
+scssSelectorName   -> cssClassName
+scssVariableAssignment -> Operator
+scssVariableValue  -> Operator
 vimAutoCmdSfxList  -> LibraryType
 vimAutoEventList   -> LocalIdent
 vimCmdSep          -> Special
