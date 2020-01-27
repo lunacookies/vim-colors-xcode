@@ -59,7 +59,6 @@ NonText            -> Ignore
 SpecialKey         -> Ignore
 Whitespace         -> Ignore
 
-FunctionDef        -> Identifier
 Searchlight        -> IncSearch
 cssBraces          -> Delimiter
 gitcommitOverflow  -> Error
@@ -75,8 +74,6 @@ jsonKeywordMatch   -> Operator
 rustDerive         -> rustAttribute
 rustDeriveTrait    -> rustDerive
 rustFuncName       -> FunctionDef
-rustIdentifier     -> Typedef
-rustMacroVariable  -> rustIdentifier
 rustModPath        -> None
 rustQuestionMark   -> Operator
 rustSelf           -> rustKeyword

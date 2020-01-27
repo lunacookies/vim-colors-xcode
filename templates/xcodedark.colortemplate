@@ -98,7 +98,7 @@ DiffText       orange       orange_wash
 Comment        base5        none
 Constant       yellow       none
 Error          base0        red
-Identifier     blue         none
+Identifier     teal         none
 PreProc        orange       none
 Special        teal         none
 Statement      pink         none bold
@@ -107,6 +107,7 @@ Type           light_teal   none
 Delimiter      base6        none
 Directory      light_blue   none
 Function       purple       none
+FunctionDef    blue         none
 Operator       base6        none
 SpecialComment base6        none
 String         red          none
