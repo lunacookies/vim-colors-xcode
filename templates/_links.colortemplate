@@ -69,6 +69,11 @@ Searchlight        -> IncSearch
 cssBraces          -> Delimiter
 gitcommitOverflow  -> Error
 gitcommitSummary   -> Title
+goField            -> LocalIdent
+goFunction         -> FunctionDef
+goFunctionCall     -> LibraryFunc
+goVarAssign        -> LocalIdent
+goVarDefs          -> IdentifierDef
 helpHyperTextJump  -> Underlined
 htmlArg            -> Special
 htmlEndTag         -> Delimiter
