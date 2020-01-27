@@ -100,6 +100,7 @@ jsFunction         -> jsStatement
 jsGlobalObjects    -> LibraryType
 jsObjectProp       -> LocalIdent
 jsOperatorKeyword  -> jsStatement
+jsThis             -> jsStatement
 jsVariableDef      -> IdentifierDef
 jsonKeywordMatch   -> Operator
 rustDerive         -> rustAttribute
