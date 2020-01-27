@@ -90,6 +90,7 @@ htmlSpecialTagName -> htmlTagName
 htmlTag            -> Delimiter
 htmlTagName        -> Statement
 jsBuiltins         -> LibraryFunc
+jsClassDefinition  -> Typedef
 jsDomErrNo         -> LibraryIdent
 jsDomNodeConsts    -> LibraryIdent
 jsExceptions       -> LibraryType
