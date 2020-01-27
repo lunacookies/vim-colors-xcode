@@ -71,7 +71,7 @@ cssBraces          -> Delimiter
 gitcommitOverflow  -> Error
 gitcommitSummary   -> Title
 helpHyperTextJump  -> Underlined
-htmlArg            -> Function
+htmlArg            -> Special
 htmlEndTag         -> Delimiter
 htmlLink           -> Underlined
 htmlSpecialTagName -> htmlTagName
@@ -90,11 +90,12 @@ rustModPath        -> None
 rustQuestionMark   -> Operator
 rustSelf           -> rustKeyword
 scssAttribute      -> Delimiter
-vimAutoCmdSfxList  -> Type
-vimAutoEventList   -> Identifier
+vimAutoCmdSfxList  -> LibraryType
+vimAutoEventList   -> LocalIdent
 vimCmdSep          -> Special
 vimCommentTitle    -> SpecialComment
 vimContinue        -> Delimiter
+vimFuncName        -> LibraryFunc
 vimFunction        -> FunctionDef
 vimHighlight       -> Statement
-vimUserFunc        -> Function
+vimUserFunc        -> LocalFunc
