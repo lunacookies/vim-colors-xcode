@@ -70,6 +70,11 @@ htmlLink           -> Underlined
 htmlSpecialTagName -> htmlTagName
 htmlTag            -> Delimiter
 htmlTagName        -> Statement
+jsFuncArgCommas    -> jsNoise
+jsFuncName         -> FunctionDef
+jsFunction         -> jsStatement
+jsOperatorKeyword  -> jsStatement
+jsVariableDef      -> IdentifierDef
 jsonKeywordMatch   -> Operator
 rustDerive         -> rustAttribute
 rustDeriveTrait    -> rustDerive

@@ -108,6 +108,7 @@ Delimiter      base6        none
 Directory      light_blue   none
 Function       purple       none
 FunctionDef    blue         none
+IdentifierDef  blue         none
 Operator       base6        none
 SpecialComment base6        none
 String         red          none

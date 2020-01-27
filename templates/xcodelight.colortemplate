@@ -110,6 +110,7 @@ Delimiter      base5       none
 Directory      blue        none
 Function       purple      none
 FunctionDef    blue        none
+IdentifierDef  blue        none
 Operator       base5       none
 SpecialComment base5       none
 String         red         none
