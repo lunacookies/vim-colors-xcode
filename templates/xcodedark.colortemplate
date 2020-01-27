@@ -96,19 +96,23 @@ DiffText       orange       orange_wash
 # Syntax
 
 Comment        base5        none
-Constant       yellow       none
 Error          base0        red
-Identifier     teal         none
 PreProc        orange       none
 Special        teal         none
 Statement      pink         none bold
-Type           light_teal   none
 
+Character      yellow       none
 Delimiter      base6        none
 Directory      light_blue   none
-Function       purple       none
 FunctionDef    blue         none
 IdentifierDef  blue         none
+LibraryFunc    purple       none
+LibraryIdent   purple       none
+LibraryType    light_purple none
+LocalFunc      teal         none
+LocalIdent     teal         none
+LocalType      light_teal   none
+Number         yellow       none
 Operator       base6        none
 SpecialComment base6        none
 String         red          none

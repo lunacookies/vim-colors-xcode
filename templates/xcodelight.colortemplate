@@ -98,19 +98,23 @@ DiffText       none        yellow_wash
 # Syntax
 
 Comment        base4       none
-Constant       strong_blue none
 Error          base0       red
-Identifier     dark_teal   none
 PreProc        brown       none
 Special        dark_teal   none
 Statement      pink        none bold
-Type           teal        none
 
+Character      strong_blue none
 Delimiter      base5       none
 Directory      blue        none
-Function       purple      none
 FunctionDef    blue        none
 IdentifierDef  blue        none
+LibraryFunc    purple      none
+LibraryIdent   purple      none
+LibraryType    dark_purple none
+LocalFunc      teal        none
+LocalIdent     teal        none
+LocalType      dark_teal   none
+Number         strong_blue none
 Operator       base5       none
 SpecialComment base5       none
 String         red         none

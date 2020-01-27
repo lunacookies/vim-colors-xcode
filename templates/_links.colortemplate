@@ -28,8 +28,14 @@ diffRemoved        -> DiffDelete
 
 # Syntax
 
-Character          -> Constant
+# Assume constants (which are always highlighted the same as identifiers) are
+# from libraries.
+Constant           -> LibraryIdent
 Float              -> Number
+
+# Assume identifiers and functions are local to the project.
+Identifier         -> LocalIdent
+Function           -> LocalFunc
 
 Boolean            -> Statement
 Conditional        -> Statement
@@ -45,6 +51,7 @@ Macro              -> PreProc
 PreCondit          -> PreProc
 
 Structure          -> Type
+Type               -> LocalType # Assume that types are local to the project.
 
 Debug              -> Special
 SpecialChar        -> Special
