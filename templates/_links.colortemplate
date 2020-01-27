@@ -33,9 +33,8 @@ diffRemoved        -> DiffDelete
 Constant           -> LibraryIdent
 Float              -> Number
 
-# Assume identifiers and functions are local to the project.
-Identifier         -> LocalIdent
-Function           -> LocalFunc
+Identifier         -> LocalIdent # Assume identifiers are local to the project.
+Function           -> LibraryFunc # Assume functions are from libraries.
 
 Boolean            -> Statement
 Conditional        -> Statement
