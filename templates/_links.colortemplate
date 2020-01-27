@@ -97,5 +97,7 @@ vimContinue        -> Delimiter
 vimFuncName        -> LibraryFunc
 vimFunction        -> FunctionDef
 vimHighlight       -> Statement
+vimMapModKey       -> vimNotation
+vimNotation        -> LibraryType
 vimOption          -> LibraryIdent
 vimUserFunc        -> LocalFunc
