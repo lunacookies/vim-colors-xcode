@@ -109,21 +109,12 @@ Statement      pink        none bold
 Character      strong_blue none
 Delimiter      base5       none
 Directory      blue        none
-FunctionDef    blue        none
-IdentifierDef  blue        none
-LibraryFunc    purple      none
-LibraryIdent   purple      none
-LibraryType    dark_purple none
-LocalFunc      teal        none
-LocalIdent     teal        none
-LocalType      dark_teal   none
 Number         strong_blue none
 Operator       base5       none
 SpecialComment base5       none
 String         red         none
 Title          base6       none bold
 Todo           base5       none bold
-Typedef        dark_blue   none
 Underlined     blue        none underline
 
 SpellBad       none        none undercurl
@@ -145,8 +136,42 @@ Include: _markdown
 markdownDelimiter teal      none
 markdownCode      purple    base1
 
+#
+# Config
+#
+
 #if g:@shortname_green_comments
     Comment        green none
     SpecialComment green none
     Todo           green none bold
+#endif
+
+#if g:@shortname_emph_types
+    Typedef     dark_blue   none
+    LocalType   dark_teal   none
+    LibraryType dark_purple none
+#else
+    Typedef     blue        none
+    LocalType   teal        none
+    LibraryType purple      none
+#endif
+
+#if g:@shortname_emph_funcs
+    FunctionDef dark_blue   none
+    LocalFunc   dark_teal   none
+    LibraryFunc dark_purple none
+#else
+    FunctionDef blue        none
+    LocalFunc   teal        none
+    LibraryFunc purple      none
+#endif
+
+#if g:@shortname_emph_idents
+    IdentifierDef dark_blue   none
+    LocalIdent    dark_teal   none
+    LibraryIdent  dark_purple none
+#else
+    IdentifierDef blue        none
+    LocalIdent    teal        none
+    LibraryIdent  purple      none
 #endif
