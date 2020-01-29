@@ -4,4 +4,6 @@ markdownCodeBlock           -> markdownCode
 markdownCodeDelimiter       -> markdownDelimiter
 markdownHeadingDelimiter    -> markdownDelimiter
 markdownItalicDelimiter     -> markdownDelimiter
+markdownLinkDelimiter       -> markdownDelimiter
+markdownLinkTextDelimiter   -> markdownDelimiter
 markdownListMarker          -> markdownDelimiter
