@@ -6,6 +6,8 @@ Description: A Vim port of the default dark Xcode 11 colourscheme
 Background: dark
 Neovim:     yes
 
+Include: _config
+
 #
 # Palette
 #
@@ -37,6 +39,9 @@ Color: light_purple #dabaff ~
 
 Color: teal         #78c2b3 ~
 Color: light_teal   #acf2e4 ~
+
+Color: green        #84b360 ~
+Color: light_green  #b0e687 ~
 
 Term colors: base2      red  teal         yellow
 Term colors: blue       pink purple       base7
@@ -139,3 +144,9 @@ Include: _links
 Include: _markdown
 markdownDelimiter teal         none
 markdownCode      light_purple base2
+
+#if g:@shortname_green_comments
+    Comment        green       none
+    SpecialComment light_green none
+    Todo           light_green none bold
+#endif
