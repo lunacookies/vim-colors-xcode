@@ -124,7 +124,7 @@ String         red         none
 Title          base6       none bold
 Todo           base5       none bold
 Typedef        dark_blue   none
-Underlined     blue        none
+Underlined     blue        none underline
 
 SpellBad       none        none undercurl
 SpellCap       none        none undercurl
