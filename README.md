@@ -10,6 +10,21 @@
 
 Use your favorite runtimepath/plugin manager, or place `xcodedark.vim` and `xcodelight.vim` into `~/.vim/colors/` for \*nix and `%userprofile%\vimfiles\colors\` for Windows.
 
+## Language Support
+
+This colourscheme has been carefully tuned for the following language plugins:
+
+- CSS ([hail2u/vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax))
+- Git ([tpope/vim-git](https://github.com/tpope/vim-git))
+- Go ([fatih/vim-go](https://github.com/fatih/vim-go))
+- HTML ([othree/html5.vim](https://github.com/othree/html5.vim))
+- JSON (built-in)
+- JavaScript ([pangloss/vim-javascript](https://github.com/pangloss/vim-javascript))
+- Markdown ([tpope/vim-markdown](https://github.com/tpope/vim-markdown))
+- Rust ([rust-lang/rust.vim](https://github.com/rust-lang/rust.vim))
+- SCSS ([cakebaker/scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim))
+- VimL (built-in)
+
 ## Usage
 
 Use `:help xcodedark` and `:help xcodelight` to see all the possible options.
