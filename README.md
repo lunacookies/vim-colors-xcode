@@ -25,9 +25,26 @@ This colourscheme has been carefully tuned for the following language plugins:
 - SCSS ([cakebaker/scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim))
 - VimL (built-in)
 
-## Usage
+## Options
 
-Use `:help xcodedark` and `:help xcodelight` to see all the possible options.
+Use `:help xcodedark` and `:help xcodelight` to view a list of all the possible options from within Vim. Add either `g:xcodedark_` or `g:xcodelight_` in front of every option name for use. For example, `emph_funcs` would turn into `g:xcodedark_emph_funcs` if you want it to apply to the dark variant and `g:xcodelight_emph_funcs` for the light version.
+
+### Comment Style
+
+| <sup>`green_comments`</sup> | Dark | Light |
+| -- | -- | -- |
+| `0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-0-light.png) |
+| `1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-1-light.png) |
+
+### Syntax Item Emphasis
+
+| <sup>`emph_types`, `emph_funcs`, `emph_idents`</sup> | Dark | Light |
+| -- | -- | -- |
+| `1`,<br>`0`,<br>`0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-1-funcs-0-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-1-funcs-0-idents-0-light.png) |
+| `0`,<br>`1`,<br>`0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-light.png) |
+| `0`,<br>`1`,<br>`1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-light.png) |
+
+## Usage
 
 If you’re using a GUI, then vim-colors-xcode should work out of the box. However, if you’re planning to use vim-colors-xcode in a terminal, the terminal must support 24-bit colour, also known as True Colour. If you want other terminal output to match with vim-colors-xcode, then set its colours to match the ones below:
 
