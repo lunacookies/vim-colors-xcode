@@ -14,8 +14,8 @@ Include: _config
 
 Color: base0        #292a30 ~
 Color: base1        #2f3037 ~
-Color: base2        #33343c ~
-Color: base3        #393b44 ~
+Color: base2        #393b44 ~
+Color: base3        #414453 ~
 Color: base4        #53606e ~
 Color: base5        #7f8c98 ~
 Color: base6        #a3b1bf ~
