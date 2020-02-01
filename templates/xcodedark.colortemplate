@@ -22,6 +22,7 @@ Color: base6        #a3b1bf ~
 Color: base7        #dfdfe0 ~
 
 Color: deep_blue    #1266ca ~
+Color: deep_yellow  #fef937 ~
 
 Color: green_wash   #243330 ~
 Color: orange_wash  #382e27 ~
@@ -62,7 +63,7 @@ CursorLineNr   base7        base1
 FoldColumn     base4        none
 Folded         base4        base2
 LineNr         base4        none
-MatchParen     base7        deep_blue
+MatchParen     base0        deep_yellow
 SignColumn     base4        none
 EndOfBuffer    base0        base0
 
@@ -89,7 +90,7 @@ StatusLineNC   base5        base2
 VertSplit      base2        base2
 WildMenu       base7        deep_blue
 
-IncSearch      base7        deep_blue
+IncSearch      base0        deep_yellow
 Search         base7        base3
 Visual         none         base3
 

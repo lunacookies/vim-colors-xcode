@@ -24,6 +24,7 @@ Color: aqua        #b4d8fd ~
 Color: light_aqua  #ecf5ff ~
 
 Color: deep_blue   #4e97f5 ~
+Color: deep_yellow #fef869 ~
 
 Color: green_wash  #edfff0 ~
 Color: red_wash    #fef0f1 ~
@@ -62,7 +63,7 @@ CursorLineNr   base6       light_aqua
 FoldColumn     base3       none
 Folded         base3       base2
 LineNr         base3       none
-MatchParen     base0       deep_blue
+MatchParen     base6       deep_yellow
 SignColumn     base3       none
 EndOfBuffer    base0       base0
 
@@ -89,7 +90,7 @@ StatusLineNC   base6       base1
 VertSplit      base1       base1
 WildMenu       base0       deep_blue
 
-IncSearch      base0       deep_blue
+IncSearch      base6       deep_yellow
 Search         base6       base2
 Visual         none        aqua
 
