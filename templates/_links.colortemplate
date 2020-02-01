@@ -76,6 +76,7 @@ cssIdentifier      -> LocalIdent
 cssProp            -> LibraryType
 cssPseudoClassId   -> LibraryIdent
 cssSelectorOp      -> Operator
+gitcommitHeader    -> Todo
 gitcommitOverflow  -> Error
 gitcommitSummary   -> Title
 goField            -> LocalIdent
