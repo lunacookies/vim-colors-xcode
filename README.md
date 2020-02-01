@@ -52,7 +52,7 @@ Dark:
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
-| Black      | `#33343c` | `#7f8c98` |
+| Black      | `#393b44` | `#7f8c98` |
 | Red        | `#ff8170` | `#ff8170` |
 | Green      | `#78c2b3` | `#acf2e4` |
 | Yellow     | `#d9c97c` | `#ffa14f` |
