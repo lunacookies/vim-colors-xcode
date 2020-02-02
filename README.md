@@ -23,6 +23,7 @@ This colourscheme has been carefully tuned for the following language plugins:
 - Markdown ([tpope/vim-markdown](https://github.com/tpope/vim-markdown))
 - Rust ([rust-lang/rust.vim](https://github.com/rust-lang/rust.vim))
 - SCSS ([cakebaker/scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim))
+- Swift ([arzg/vim-swift](https://github.com/arzg/vim-swift))
 - VimL (built-in)
 
 ## Options
