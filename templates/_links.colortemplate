@@ -119,6 +119,14 @@ scssMixinParams    -> cssNoise
 scssSelectorName   -> cssClassName
 scssVariableAssignment -> Operator
 scssVariableValue  -> Operator
+swiftFuncDef       -> FunctionDef
+swiftIdentDef      -> IdentifierDef
+swiftLibraryFunc   -> LibraryFunc
+swiftLibraryProp   -> LibraryIdent
+swiftLibraryType   -> LibraryType
+swiftUserFunc      -> LocalFunc
+swiftUserProp      -> LocalIdent
+swiftUserType      -> LocalType
 vimAutoCmdSfxList  -> LibraryType
 vimAutoEventList   -> LocalIdent
 vimCmdSep          -> Special
