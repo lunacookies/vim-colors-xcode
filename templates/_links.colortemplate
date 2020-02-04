@@ -39,13 +39,13 @@ Function           -> LibraryFunc # Assume functions are from libraries.
 Boolean            -> Statement
 Conditional        -> Statement
 Exception          -> Statement
+Include            -> Statement
 Keyword            -> Statement
 Label              -> Statement
 Repeat             -> Statement
 StorageClass       -> Statement
 
 Define             -> PreProc
-Include            -> PreProc
 Macro              -> PreProc
 PreCondit          -> PreProc
 
