@@ -60,12 +60,13 @@ None           base7        none
 # Vim Interface
 
 CursorLineNr   base7        base1
+EndOfBuffer    base0        base0
 FoldColumn     base4        none
 Folded         base4        base2
 LineNr         base4        none
 MatchParen     base0        deep_yellow
+MatchWord      base7        deep_blue
 SignColumn     base4        none
-EndOfBuffer    base0        base0
 
 Ignore         base4        none
 
