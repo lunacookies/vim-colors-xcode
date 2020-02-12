@@ -14,7 +14,7 @@ Use your favorite runtimepath/plugin manager, or place `xcodedark.vim` and `xcod
 
 ## Language Support
 
-This colourscheme has been carefully tuned for the following language plugins:
+These colourschemes have been carefully tuned for the following language plugins:
 
 - CSS ([hail2u/vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax))
 - Git ([tpope/vim-git](https://github.com/tpope/vim-git))
