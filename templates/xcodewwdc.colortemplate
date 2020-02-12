@@ -1,0 +1,141 @@
+Full name:   Xcode WWDC
+Short name:  xcodewwdc
+Author:      Aramis Razzaghipour <aramisnoah@gmail.com>
+Description: The colours from WWDC 2016’s marketing material
+
+Background: dark
+Neovim:     yes
+
+#
+# Palette
+#
+
+Color: base0        #292c36 ~
+Color: base1        #2f323d ~
+Color: base2        #383b45 ~
+Color: base3        #494d5c ~
+Color: base4        #595e6d ~
+Color: base5        #7f869e ~
+Color: base6        #b3b6c0 ~
+Color: base7        #e7e8eb ~
+
+Color: deep_blue    #1266ca ~
+Color: deep_yellow  #fef937 ~
+
+Color: green_wash   #233429 ~ # TODO
+Color: orange_wash  #3a2e27 ~ # TODO
+Color: red_wash     #3d2c2c ~ # TODO
+
+Color: cyan         #00aba4 ~
+Color: green        #94c66e ~
+Color: indigo       #8884c5 ~
+Color: orange       #d28e5d ~
+Color: purple       #b73999 ~
+Color: red          #bb383a ~
+Color: slate        #68878f ~
+
+Color: deep_green   #23ad68 ~
+Color: strong_green #35d585 ~
+
+Term colors: base2  red    green orange
+Term colors: indigo purple cyan  base7
+Term colors: base5  red    green orange
+Term colors: indigo purple cyan  base7
+
+#
+# Highlighting
+#
+
+Normal         base7        base0
+Cursor         base0        base7
+None           base7        none
+
+# Vim Interface
+
+CursorLineNr   base7        base1
+EndOfBuffer    base0        base0
+FoldColumn     base4        none
+Folded         base4        base2
+LineNr         base4        none
+MatchParen     base0        deep_yellow
+MatchWord      base7        deep_blue
+SignColumn     base4        none
+
+Ignore         base4        none
+
+Pmenu          base7        base2
+PmenuSbar      base2        base2
+PmenuSel       base7        deep_blue
+PmenuThumb     base3        base3
+
+ErrorMsg       red          none bold
+ModeMsg        base5        none
+MoreMsg        cyan         none
+Question       cyan         none
+WarningMsg     red          none bold
+
+ColorColumn    none         base1
+CursorColumn   none         base1
+CursorLine     none         base1
+
+QuickFixLine   base7        deep_blue
+StatusLine     base7        base3
+StatusLineNC   base5        base2
+VertSplit      base2        base2
+WildMenu       base7        deep_blue
+
+IncSearch      base0        deep_yellow
+Search         base7        base3
+Visual         none         base3
+
+DiffAdd        strong_green green_wash
+DiffChange     orange       none
+DiffDelete     red          red_wash
+DiffText       orange       orange_wash
+
+# Syntax
+
+Comment        deep_green   none
+Error          base0        red
+PreProc        orange       none
+Special        indigo       none
+Statement      purple       none
+
+Character      orange       none
+Delimiter      base6        none
+Directory      cyan         none
+FunctionDef    indigo       none
+IdentifierDef  indigo       none
+LibraryFunc    cyan         none
+LibraryIdent   cyan         none
+LibraryType    cyan         none
+LocalFunc      green        none
+LocalIdent     green        none
+LocalType      green        none
+Number         orange       none
+Operator       base6        none
+SpecialComment strong_green none
+String         red          none
+Title          base7        none bold
+Todo           strong_green none bold
+Typedef        indigo       none
+Underlined     cyan         none underline
+
+SpellBad       none         none undercurl
+SpellCap       none         none undercurl
+SpellLocal     none         none undercurl
+SpellRare      none         none undercurl
+
+# indentLine
+#let g:indentLine_color_gui  = '@guibase4'
+#let g:indentLine_color_term = @term256base4
+
+# Limelight
+#let g:limelight_conceal_guifg = '@guibase5'
+#let g:limelight_conceal_ctermfg = @term256base5
+
+Include: _links
+
+Include: _markdown
+markdownDelimiter slate         none
+markdownCode      cyan          base2
