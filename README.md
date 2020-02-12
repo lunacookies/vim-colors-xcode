@@ -81,7 +81,22 @@ Light:
 | Foreground | `#262626` |           |
 | Background | `#ffffff` |           |
 
-iTerm presets for both of these are included with this repository.
+WWDC:
+
+| Colour     | Normal    | Bright    |
+| ---        | ---       | ---       |
+| Black      | `#383b45` | `#7f869e` |
+| Red        | `#bb383a` | `#bb383a` |
+| Green      | `#94c66e` | `#94c66e` |
+| Yellow     | `#d28e5d` | `#d28e5d` |
+| Blue       | `#8884c5` | `#8884c5` |
+| Magenta    | `#b73999` | `#b73999` |
+| Cyan       | `#00aba4` | `#00aba4` |
+| White      | `#e7e8eb` | `#e7e8eb` |
+| Foreground | `#e7e8eb` |           |
+| Background | `#292c36` |           |
+
+iTerm presets for all these palettes are included with this repository.
 
 If you would like to have italic comments add the following to your `vimrc`:
 
