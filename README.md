@@ -1,9 +1,10 @@
 <table><tbody align="center"><tr><td>
 <h1>vim-colors-xcode</h1>
-<table><tbody align="center"><tr><td><img src="https://raw.githubusercontent.com/arzg/resources/master/xcodedark.png"/></td>
-<td><img src="https://raw.githubusercontent.com/arzg/resources/master/xcodelight.png"/></td></tr>
-<tr><td><img src="https://raw.githubusercontent.com/arzg/resources/master/xcodewwdc.png"/></td></tr>
-</tbody></table>
+<table><tbody align="center"><tr><td>
+<img src="https://raw.githubusercontent.com/arzg/resources/master/xcodedark.png"/>
+<img src="https://raw.githubusercontent.com/arzg/resources/master/xcodelight.png"/>
+<img src="https://raw.githubusercontent.com/arzg/resources/master/xcodewwdc.png"/>
+</td></tr></tbody></table>
 <h3>A number of Xcode 11’s colourschemes, now for Vim!</h3>
 <em>made in <a href="https://github.com/lifepillar/vim-colortemplate">Colortemplate</a>, the Toolkit for Vim Colourscheme Designers</em>
 </td></tr></tbody></table>
