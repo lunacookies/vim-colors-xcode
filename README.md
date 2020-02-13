@@ -30,6 +30,13 @@ These colourschemes have been carefully tuned for the following language plugins
 - Vim help (built-in)
 - VimL (built-in)
 
+## Plugin Support
+
+These plugins are specifically supported:
+
+- [Matchup](https://github.com/andymass/vim-matchup)
+- [Searchlight](https://github.com/PeterRincker/vim-searchlight)
+
 ## Options
 
 Use `:help xcodedark` and `:help xcodelight` to view a list of all the possible options from within Vim. Add either `g:xcodedark_` or `g:xcodelight_` in front of every option name for use. For example, `emph_funcs` would turn into `g:xcodedark_emph_funcs` if you want it to apply to the dark variant and `g:xcodelight_emph_funcs` for the light version.
