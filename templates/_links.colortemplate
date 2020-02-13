@@ -84,7 +84,14 @@ goFunction         -> FunctionDef
 goFunctionCall     -> LibraryFunc
 goVarAssign        -> LocalIdent
 goVarDefs          -> IdentifierDef
+helpCommand        -> helpExample
+helpExample        -> markdownCode
+helpHeadline       -> Title
+helpHyperTextEntry -> Comment
 helpHyperTextJump  -> Underlined
+helpSectionDelim   -> Ignore
+helpURL            -> helpHyperTextJump
+helpVim            -> Title
 htmlArg            -> Special
 htmlEndTag         -> Delimiter
 htmlLink           -> Underlined
