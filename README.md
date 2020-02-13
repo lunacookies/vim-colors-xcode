@@ -27,6 +27,7 @@ These colourschemes have been carefully tuned for the following language plugins
 - Rust ([rust-lang/rust.vim](https://github.com/rust-lang/rust.vim))
 - SCSS ([cakebaker/scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim))
 - Swift ([arzg/vim-swift](https://github.com/arzg/vim-swift))
+- Vim help (built-in)
 - VimL (built-in)
 
 ## Options
