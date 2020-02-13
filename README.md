@@ -11,7 +11,7 @@
 
 ## Installation
 
-Use your favorite runtimepath/plugin manager, or place `xcodedark.vim` and `xcodelight.vim` into `~/.vim/colors/` for \*nix and `%userprofile%\vimfiles\colors\` for Windows.
+Use your favorite runtimepath/plugin manager. If you don’t have one, I recommend [Plug](https://github.com/junegunn/vim-plug).
 
 ## Language Support
 
