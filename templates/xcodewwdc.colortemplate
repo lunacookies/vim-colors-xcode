@@ -22,9 +22,9 @@ Color: base7        #e7e8eb ~
 Color: deep_blue    #1266ca ~
 Color: deep_yellow  #fef937 ~
 
-Color: green_wash   #233429 ~ # TODO
-Color: orange_wash  #3a2e27 ~ # TODO
-Color: red_wash     #3d2c2c ~ # TODO
+Color: green_wash   #233429 ~
+Color: orange_wash  #3a2e27 ~
+Color: red_wash     #3d2c2c ~
 
 Color: cyan         #00aba4 ~
 Color: green        #94c66e ~
