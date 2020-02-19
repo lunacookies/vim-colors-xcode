@@ -32,6 +32,7 @@ diffRemoved        -> DiffDelete
 # from libraries.
 Constant           -> LibraryIdent
 Float              -> Number
+StringDelimiter    -> String
 
 Identifier         -> LocalIdent # Assume identifiers are local to the project.
 Function           -> LibraryFunc # Assume functions are from libraries.
@@ -58,7 +59,6 @@ Tag                -> Special
 
 Noise              -> Delimiter
 Quote              -> StringDelimiter
-StringDelimiter    -> Delimiter
 
 Conceal            -> Ignore
 NonText            -> Ignore
