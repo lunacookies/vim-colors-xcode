@@ -62,7 +62,7 @@ None           base6       none
 CursorLineNr   base6       light_aqua
 EndOfBuffer    base0       base0
 FoldColumn     base3       none
-Folded         base3       base2
+Folded         base4       base2
 LineNr         base3       none
 MatchParen     base6       deep_yellow
 MatchWord      base0       deep_blue
