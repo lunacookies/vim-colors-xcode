@@ -1,0 +1,144 @@
+Background: dark
+Neovim:     yes
+
+Include: _doc_header
+Include: _green_comments
+Include: _emph
+
+#
+# Terminal Colour Palette
+#
+
+Term colors: base2      red  teal         yellow
+Term colors: blue       pink purple       base7
+Term colors: base5      red  light_teal   orange
+Term colors: light_blue pink light_purple base7
+
+#
+# Highlighting
+#
+
+Normal         base7        base0
+Cursor         base0        base7
+None           base7        none
+
+# Vim Interface
+
+CursorLineNr   base7        base1
+EndOfBuffer    base0        base0
+FoldColumn     base4        none
+Folded         base4        base2
+LineNr         base4        none
+MatchParen     base0        deep_yellow
+MatchWord      base7        deep_blue
+SignColumn     base4        none
+
+Ignore         base4        none
+
+Pmenu          base7        base2
+PmenuSbar      base2        base2
+PmenuSel       base7        deep_blue
+PmenuThumb     base3        base3
+
+ErrorMsg       red          none
+ModeMsg        base5        none
+MoreMsg        pink         none
+Question       pink         none
+WarningMsg     red          none
+
+ColorColumn    none         base1
+CursorColumn   none         base1
+CursorLine     none         base1
+
+QuickFixLine   base7        deep_blue
+StatusLine     base7        base3
+StatusLineNC   base5        base2
+VertSplit      base2        base2
+WildMenu       base7        deep_blue
+
+IncSearch      base0        deep_yellow
+Search         base7        base3
+Visual         none         base3
+
+DiffAdd        light_teal   green_wash
+DiffChange     orange       none
+DiffDelete     red          red_wash
+DiffText       orange       orange_wash
+
+# Syntax
+
+Comment        base5        none
+Error          base0        red
+PreProc        orange       none
+Special        teal         none
+Statement      pink         none bold
+
+Character      yellow       none
+Delimiter      base6        none
+Directory      light_blue   none
+Number         yellow       none
+Operator       base6        none
+SpecialComment base6        none
+String         red          none
+Title          base7        none bold
+Todo           base6        none bold
+Underlined     light_blue   none underline
+
+SpellBad       none         none undercurl
+SpellCap       none         none undercurl
+SpellLocal     none         none undercurl
+SpellRare      none         none undercurl
+
+# indentLine
+#let g:indentLine_color_gui  = '@guibase4'
+#let g:indentLine_color_term = @term256base4
+
+# Limelight
+#let g:limelight_conceal_guifg = '@guibase5'
+#let g:limelight_conceal_ctermfg = @term256base5
+
+Include: _links
+
+Include: _markdown
+markdownDelimiter teal         none
+markdownCode      light_purple base2
+
+#
+# Config
+#
+
+#if g:@shortname_green_comments
+    Comment        green       none
+    SpecialComment light_green none
+    Todo           light_green none bold
+#endif
+
+#if g:@shortname_emph_types
+    Typedef     light_blue   none
+    LocalType   light_teal   none
+    LibraryType light_purple none
+#else
+    Typedef     blue         none
+    LocalType   teal         none
+    LibraryType purple       none
+#endif
+
+#if g:@shortname_emph_funcs
+    FunctionDef light_blue   none
+    LocalFunc   light_teal   none
+    LibraryFunc light_purple none
+#else
+    FunctionDef blue         none
+    LocalFunc   teal         none
+    LibraryFunc purple       none
+#endif
+
+#if g:@shortname_emph_idents
+    IdentifierDef light_blue   none
+    LocalIdent    light_teal   none
+    LibraryIdent  light_purple none
+#else
+    IdentifierDef blue         none
+    LocalIdent    teal         none
+    LibraryIdent  purple       none
+#endif
