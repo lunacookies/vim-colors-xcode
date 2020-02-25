@@ -1,0 +1,15 @@
+#if !exists('g:@shortname_green_comments')
+    #let g:@shortname_green_comments = 0
+#endif
+
+documentation
+
+---------------------------------------------------------------------------
+                                                 *g:@shortname_green_comments*
+
+Set to 1 if you want to make comments green in the same way that Xcode’s
+‘Classic’ (rather than ‘Default’) series of themes do. The default is 0.
+>
+    let g:@shortname_green_comments = 0
+<
+enddocumentation

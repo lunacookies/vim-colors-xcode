@@ -6,7 +6,9 @@ Description: A Vim port of the default light Xcode 11 colourscheme
 Background: light
 Neovim:     yes
 
-Include: _config
+Include: _doc_header
+Include: _green_comments
+Include: _emph
 
 #
 # Palette
