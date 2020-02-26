@@ -63,7 +63,7 @@ These plugins are specifically supported:
 <details>
 <summary>Options</summary>
 
-Use `:help xcodedark` and `:help xcodelight` to view a list of all the possible options from within Vim. Add either `g:xcodedark_` or `g:xcodelight_` in front of every option name for use. For example, `emph_funcs` would turn into `g:xcodedark_emph_funcs` if you want it to apply to the dark variant and `g:xcodelight_emph_funcs` for the light version.
+Use `:help xcode<variant>`, where variant is either `dark`, `darkhc`, `light`, or `lighthc` to view a list of all the possible options from within Vim. Add `g:xcode<variant>_` in front of every option name for use. For example, `emph_funcs` would turn into `g:xcodedarkhc_emph_funcs` if you want it to apply to the dark high contrast variant and `g:xcodelight_emph_funcs` for the light version.
 
 <details>
 <summary>Comment Style</summary>
