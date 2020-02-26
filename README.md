@@ -105,6 +105,21 @@ Light:
 | Foreground | `#262626` |           |
 | Background | `#ffffff` |           |
 
+Light High Contrast:
+
+| Colour     | Normal    | Bright    |
+| ---        | ---       | ---       |
+| Black      | `#e5e5e5` | `#8a99a6` |
+| Red        | `#ad1805` | `#ad1805` |
+| Green      | `#355d61` | `#174145` |
+| Yellow     | `#78492a` | `#78492a` |
+| Blue       | `#0058a1` | `#003f73` |
+| Magenta    | `#9c2191` | `#9c2191` |
+| Cyan       | `#703daa` | `#441ea1` |
+| White      | `#000000` | `#000000` |
+| Foreground | `#000000` |           |
+| Background | `#ffffff` |           |
+
 WWDC:
 
 | Colour     | Normal    | Bright    |
