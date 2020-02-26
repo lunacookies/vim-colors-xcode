@@ -1,0 +1,35 @@
+===========================================================================
+Xcode Dark High Contrast options                                         *xcodedarkhc-options*
+
+---------------------------------------------------------------------------
+                                                 *g:xcodedarkhc_green_comments*
+
+Set to 1 if you want to make comments green in the same way that Xcode’s
+‘Classic’ (rather than ‘Default’) series of themes do. The default is 0.
+>
+    let g:xcodedarkhc_green_comments = 0
+<
+
+---------------------------------------------------------------------------
+                                                     *g:xcodedarkhc_emph_types*
+
+Set to 1 to emphasise types over functions and identifiers. The default is 1.
+>
+    let g:xcodedarkhc_emph_types = 1
+<
+
+---------------------------------------------------------------------------
+                                                     *g:xcodedarkhc_emph_funcs*
+
+Set to 1 to emphasise functions over types and identifiers. The default is 0.
+>
+    let g:xcodedarkhc_emph_funcs = 0
+<
+
+---------------------------------------------------------------------------
+                                                    *g:xcodedarkhc_emph_idents*
+
+Set to 1 to emphasise identifiers over types and functions. The default is 0.
+>
+    let g:xcodedarkhc_emph_idents = 0
+<

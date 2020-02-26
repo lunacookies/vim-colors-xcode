@@ -1,0 +1,38 @@
+Full name:   Xcode Dark High Contrast
+Short name:  xcodedarkhc
+Author:      Aramis Razzaghipour <aramisnoah@gmail.com>
+Description: A Vim port of the high contrast dark Xcode 11 colourscheme
+
+Color: base0        #1f1f24 ~
+Color: base1        #26262b ~
+Color: base2        #34353b ~
+Color: base3        #43454b ~
+Color: base4        #52555c ~
+Color: base5        #838991 ~
+Color: base6        #aeb7c0 ~
+Color: base7        #ffffff ~
+
+Color: deep_blue    #1266ca ~
+Color: deep_yellow  #fef937 ~
+
+Color: green_wash   #1e2a28 ~
+Color: orange_wash  #2e2622 ~
+Color: red_wash     #2f2625 ~
+
+Color: blue         #4ec4e6 ~
+Color: light_blue   #6bdfff ~
+Color: orange       #ffa14f ~
+Color: pink         #ff85b8 ~
+Color: red          #ff8a7a ~
+Color: yellow       #d9c668 ~
+
+Color: purple       #cda1ff ~
+Color: light_purple #e5cfff ~
+
+Color: teal         #83c9bc ~
+Color: light_teal   #b1faeb ~
+
+Color: green        #8dbf67 ~
+Color: light_green  #b8f08d ~
+
+Include: _xcodedark
