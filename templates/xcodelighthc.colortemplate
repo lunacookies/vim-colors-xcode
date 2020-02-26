@@ -1,0 +1,38 @@
+Full name:   Xcode Light High Contrast
+Short name:  xcodelighthc
+Author:      Aramis Razzaghipour <aramisnoah@gmail.com>
+Description: A Vim port of the high contrast light Xcode 11 colourscheme
+
+Color: base0       #ffffff ~
+Color: base1       #f4f4f4 ~
+Color: base2       #e5e5e5 ~
+Color: base3       #cdcdcd ~
+Color: base4       #8a99a6 ~
+Color: base5       #5c6873 ~
+Color: base6       #000000 ~
+
+Color: aqua        #b4d8fd ~
+Color: light_aqua  #ecf5ff ~
+
+Color: deep_blue   #4e97f5 ~
+Color: deep_yellow #fef869 ~
+
+Color: green_wash  #edfff0 ~
+Color: red_wash    #fef0f1 ~
+Color: yellow_wash #fdfae6 ~
+
+Color: blue        #0058a1 ~
+Color: brown       #78492a ~
+Color: dark_blue   #003f73 ~
+Color: green       #1f6300 ~
+Color: pink        #9c2191 ~
+Color: red         #ad1805 ~
+Color: strong_blue #272ad8 ~
+
+Color: dark_purple #441ea1 ~
+Color: purple      #703daa ~
+
+Color: dark_teal   #174145 ~
+Color: teal        #355d61 ~
+
+Include: _xcodelight
