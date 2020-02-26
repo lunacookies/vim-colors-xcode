@@ -75,6 +75,21 @@ Dark:
 | Foreground | `#dfdfe0` |           |
 | Background | `#292a30` |           |
 
+Dark High Contrast:
+
+| Colour     | Normal    | Bright    |
+| ---        | ---       | ---       |
+| Black      | `#34353b` | `#838991` |
+| Red        | `#ff8a7a` | `#ff8a7a` |
+| Green      | `#83c9bc` | `#b1faeb` |
+| Yellow     | `#d9c668` | `#ffa14f` |
+| Blue       | `#4ec4e6` | `#6bdfff` |
+| Magenta    | `#ff85b8` | `#ff85b8` |
+| Cyan       | `#cda1ff` | `#e5cfff` |
+| White      | `#ffffff` | `#ffffff` |
+| Foreground | `#ffffff` |           |
+| Background | `#1f1f24` |           |
+
 Light:
 
 | Colour     | Normal    | Bright    |
