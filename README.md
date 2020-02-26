@@ -1,15 +1,19 @@
-<table><tbody align="center"><tr><td>
-<h1>vim-colors-xcode</h1>
-<table><tbody align="center"><tr><td>
-<img src="https://raw.githubusercontent.com/arzg/resources/master/xcodedark.png"/>
-<img src="https://raw.githubusercontent.com/arzg/resources/master/xcodelight.png"/>
-<img src="https://raw.githubusercontent.com/arzg/resources/master/xcodewwdc.png"/>
-</td></tr></tbody></table>
-<h3>A number of Xcode 11’s colourschemes, now for Vim!</h3>
-<em>made in <a href="https://github.com/lifepillar/vim-colortemplate">Colortemplate</a>, the Toolkit for Vim Colourscheme Designers</em>
-</td></tr></tbody></table>
+<h1 align="center">vim-colors-xcode</h1>
 
-High contrast variants of the light and dark colourschemes are also available:
+<h3 align="center">A number of Xcode 11’s colourschemes, now for Vim!</h3>
+<p align="center"><em>made in <a href="https://github.com/lifepillar/vim-colortemplate">Colortemplate</a>, the Toolkit for Vim Colourscheme Designers</em></p>
+
+<details>
+<summary>Screenshots</summary>
+
+![](https://raw.githubusercontent.com/arzg/resources/master/xcodedark.png)
+![](https://raw.githubusercontent.com/arzg/resources/master/xcodelight.png)
+![](https://raw.githubusercontent.com/arzg/resources/master/xcodewwdc.png)
+
+</details>
+
+<details>
+<summary>High contrast variants are available</summary>
 
 | `xcodedark`                                                                                 | `xcodedarkhc` (high-contrast)                                                                 |
 | --                                                                                          | --                                                                                            |
@@ -20,13 +24,16 @@ High contrast variants of the light and dark colourschemes are also available:
 | `xcodelight`                                                                                 | `xcodelighthc` (high-contrast)                                                                 |
 | --                                                                                           | --                                                                                             |
 | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodelight.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodelighthc.png) |
+</details>
 
-
-## Installation
+<details>
+<summary>Installation</summary>
 
 Use your favorite runtimepath/plugin manager. If you don’t have one, I recommend [Plug](https://github.com/junegunn/vim-plug).
+</details>
 
-## Language Support
+<details>
+<summary>Language Support</summary>
 
 These colourschemes have been carefully tuned for the following language plugins:
 
@@ -42,38 +49,49 @@ These colourschemes have been carefully tuned for the following language plugins
 - Swift ([arzg/vim-swift](https://github.com/arzg/vim-swift))
 - Vim help (built-in)
 - VimL (built-in)
+</details>
 
-## Plugin Support
+<details>
+<summary>Plugin Support</summary>
 
 These plugins are specifically supported:
 
 - [Matchup](https://github.com/andymass/vim-matchup)
 - [Searchlight](https://github.com/PeterRincker/vim-searchlight)
+</details>
 
-## Options
+<details>
+<summary>Options</summary>
 
 Use `:help xcodedark` and `:help xcodelight` to view a list of all the possible options from within Vim. Add either `g:xcodedark_` or `g:xcodelight_` in front of every option name for use. For example, `emph_funcs` would turn into `g:xcodedark_emph_funcs` if you want it to apply to the dark variant and `g:xcodelight_emph_funcs` for the light version.
 
-### Comment Style
+<details>
+<summary>Comment Style</summary>
 
 | <sup>`green_comments`</sup> | Dark | Light |
 | -- | -- | -- |
 | `0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-0-light.png) |
 | `1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-1-light.png) |
+</details>
 
-### Syntax Item Emphasis
+<details>
+<summary>Syntax Item Emphasis</summary>
 
 | <sup>`emph_types`, `emph_funcs`, `emph_idents`</sup> | Dark | Light |
 | -- | -- | -- |
 | `1`,<br>`0`,<br>`0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-1-funcs-0-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-1-funcs-0-idents-0-light.png) |
 | `0`,<br>`1`,<br>`0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-light.png) |
 | `0`,<br>`1`,<br>`1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-light.png) |
+</details>
+</details>
 
-## Usage
+<details>
+<summary>Usage</summary>
 
 If you’re using a GUI, then vim-colors-xcode should work out of the box. However, if you’re planning to use vim-colors-xcode in a terminal, the terminal must support 24-bit colour, also known as True Colour. If you want other terminal output to match with vim-colors-xcode, then set its colours to match the ones below:
 
-Dark:
+<details>
+<summary>Dark Palette</summary>
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
@@ -87,8 +105,10 @@ Dark:
 | White      | `#dfdfe0` | `#dfdfe0` |
 | Foreground | `#dfdfe0` |           |
 | Background | `#292a30` |           |
+</details>
 
-Dark High Contrast:
+<details>
+<summary>Dark High Contrast Palette</summary>
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
@@ -102,8 +122,10 @@ Dark High Contrast:
 | White      | `#ffffff` | `#ffffff` |
 | Foreground | `#ffffff` |           |
 | Background | `#1f1f24` |           |
+</details>
 
-Light:
+<details>
+<summary>Light Palette</summary>
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
@@ -117,8 +139,10 @@ Light:
 | White      | `#262626` | `#262626` |
 | Foreground | `#262626` |           |
 | Background | `#ffffff` |           |
+</details>
 
-Light High Contrast:
+<details>
+<summary>Light High Contrast Palette</summary>
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
@@ -132,8 +156,10 @@ Light High Contrast:
 | White      | `#000000` | `#000000` |
 | Foreground | `#000000` |           |
 | Background | `#ffffff` |           |
+</details>
 
-WWDC:
+<details>
+<summary>WWDC Palette</summary>
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
@@ -147,12 +173,13 @@ WWDC:
 | White      | `#e7e8eb` | `#e7e8eb` |
 | Foreground | `#e7e8eb` |           |
 | Background | `#292c36` |           |
+</details>
 
 iTerm presets for all these palettes are included with this repository.
 
 If you would like to have italic comments add the following to your `vimrc`:
 
-```
+```viml
 augroup vim-colors-xcode
     autocmd!
 augroup END
@@ -160,5 +187,6 @@ augroup END
 autocmd vim-colors-xcode ColorScheme * hi Comment        cterm=italic gui=italic
 autocmd vim-colors-xcode ColorScheme * hi SpecialComment cterm=italic gui=italic
 ```
+</details>
 
 The font in the screenshots is [SF Mono](https://developer.apple.com/videos/play/wwdc2016/803/?time=106), which you can download [from Apple’s website](https://developer.apple.com/fonts/).
