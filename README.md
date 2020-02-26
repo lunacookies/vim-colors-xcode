@@ -9,6 +9,19 @@
 <em>made in <a href="https://github.com/lifepillar/vim-colortemplate">Colortemplate</a>, the Toolkit for Vim Colourscheme Designers</em>
 </td></tr></tbody></table>
 
+High contrast variants of the light and dark colourschemes are also available:
+
+| `xcodedark`                                                                                 | `xcodedarkhc` (high-contrast)                                                                 |
+| --                                                                                          | --                                                                                            |
+| ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodedark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodedarkhc.png) |
+
+---
+
+| `xcodelight`                                                                                 | `xcodelighthc` (high-contrast)                                                                 |
+| --                                                                                           | --                                                                                             |
+| ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodelight.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodelighthc.png) |
+
+
 ## Installation
 
 Use your favorite runtimepath/plugin manager. If you don’t have one, I recommend [Plug](https://github.com/junegunn/vim-plug).
