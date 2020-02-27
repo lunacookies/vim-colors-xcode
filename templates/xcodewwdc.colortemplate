@@ -6,6 +6,9 @@ Description: The colours from WWDC 2016’s marketing material
 Background: dark
 Neovim:     yes
 
+Include: _doc_header
+Include: _emph
+
 #
 # Palette
 #
@@ -33,6 +36,10 @@ Color: orange       #d28e5d ~
 Color: purple       #b73999 ~
 Color: red          #bb383a ~
 Color: slate        #68878f ~
+
+Color: light_indigo #b9b5f6 ~
+Color: light_green  #c7faa4 ~
+Color: light_cyan   #64dcd4 ~
 
 Color: deep_green   #23ad68 ~
 Color: strong_green #35d585 ~
@@ -104,21 +111,12 @@ Statement      purple       none
 Character      orange       none
 Delimiter      base6        none
 Directory      cyan         none
-FunctionDef    indigo       none
-IdentifierDef  indigo       none
-LibraryFunc    cyan         none
-LibraryIdent   cyan         none
-LibraryType    cyan         none
-LocalFunc      green        none
-LocalIdent     green        none
-LocalType      green        none
 Number         orange       none
 Operator       base6        none
 SpecialComment strong_green none
 String         red          none
 Title          base7        none bold
 Todo           strong_green none bold
-Typedef        indigo       none
 Underlined     cyan         none underline
 
 SpellBad       none         none undercurl
@@ -139,3 +137,37 @@ Include: _links
 Include: _markdown
 markdownDelimiter slate         none
 markdownCode      cyan          base2
+
+#
+# Config
+#
+
+#if g:@shortname_emph_types
+    Typedef     light_indigo none
+    LocalType   light_green  none
+    LibraryType light_cyan   none
+#else
+    Typedef     indigo       none
+    LocalType   green        none
+    LibraryType cyan         none
+#endif
+
+#if g:@shortname_emph_funcs
+    FunctionDef light_indigo none
+    LocalFunc   light_green  none
+    LibraryFunc light_cyan   none
+#else
+    FunctionDef indigo       none
+    LocalFunc   green        none
+    LibraryFunc cyan         none
+#endif
+
+#if g:@shortname_emph_idents
+    IdentifierDef light_indigo none
+    LocalIdent    light_green  none
+    LibraryIdent  light_cyan   none
+#else
+    IdentifierDef indigo       none
+    LocalIdent    green        none
+    LibraryIdent  cyan         none
+#endif

@@ -1,0 +1,26 @@
+===========================================================================
+Xcode WWDC options                                         *xcodewwdc-options*
+
+---------------------------------------------------------------------------
+                                                     *g:xcodewwdc_emph_types*
+
+Set to 1 to emphasise types over functions and identifiers. The default is 1.
+>
+    let g:xcodewwdc_emph_types = 1
+<
+
+---------------------------------------------------------------------------
+                                                     *g:xcodewwdc_emph_funcs*
+
+Set to 1 to emphasise functions over types and identifiers. The default is 0.
+>
+    let g:xcodewwdc_emph_funcs = 0
+<
+
+---------------------------------------------------------------------------
+                                                    *g:xcodewwdc_emph_idents*
+
+Set to 1 to emphasise identifiers over types and functions. The default is 0.
+>
+    let g:xcodewwdc_emph_idents = 0
+<
