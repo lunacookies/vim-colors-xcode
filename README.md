@@ -83,6 +83,15 @@ Use `:help xcode<variant>`, where variant is either `dark`, `darkhc`, `light`, `
 | `0`,<br>`1`,<br>`0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-light.png) |
 | `0`,<br>`1`,<br>`1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-light.png) |
 </details>
+
+<details>
+<summary>MatchParen style</summary>
+
+| <sup>`match_paren_style`</sup> | Dark | Light |
+| -- | -- | -- |
+| `0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-0-light.png) |
+| `1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-1-light.png) |
+</details>
 </details>
 
 <details>
