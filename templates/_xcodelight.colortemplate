@@ -31,14 +31,15 @@ FoldColumn     base3       none
 Folded         base4       base2
 LineNr         base3       none
 MatchParen     base6       deep_yellow
-MatchWord      base0       deep_blue
+MatchWord      base0       deep_blue0
 SignColumn     base3       none
+Signify        deep_blue1  none
 
 Ignore         base3       none
 
 Pmenu          base6       base1
 PmenuSbar      base1       base1
-PmenuSel       base0       deep_blue
+PmenuSel       base0       deep_blue0
 PmenuThumb     base2       base2
 
 ErrorMsg       red         none
@@ -51,11 +52,11 @@ ColorColumn    none        base1
 CursorColumn   none        light_aqua
 CursorLine     none        light_aqua
 
-QuickFixLine   base0       deep_blue
+QuickFixLine   base0       deep_blue0
 StatusLine     base6       base2
 StatusLineNC   base6       base1
 VertSplit      base1       base1
-WildMenu       base0       deep_blue
+WildMenu       base0       deep_blue0
 
 IncSearch      base6       deep_yellow
 Search         base6       base2
@@ -147,5 +148,5 @@ markdownCode      purple    base1
 #if g:@shortname_match_paren_style
     MatchParen base6 deep_yellow
 #else
-    MatchParen base0 deep_blue
+    MatchParen base0 deep_blue0
 #endif

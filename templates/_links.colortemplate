@@ -66,6 +66,9 @@ SpecialKey         -> Ignore
 Whitespace         -> Ignore
 
 Searchlight        -> IncSearch
+SignifySignAdd     -> Signify
+SignifySignChange  -> Signify
+SignifySignDelete  -> Signify
 cssAtRule          -> Keyword
 cssAttr            -> Keyword
 cssBraces          -> cssNoise

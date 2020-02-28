@@ -14,7 +14,8 @@ Color: base6       #262626 ~
 Color: aqua        #b4d8fd ~
 Color: light_aqua  #ecf5ff ~
 
-Color: deep_blue   #4e97f5 ~
+Color: deep_blue0  #156adf ~
+Color: deep_blue1  #69a7fc ~
 Color: deep_yellow #fef869 ~
 
 Color: green_wash  #edfff0 ~

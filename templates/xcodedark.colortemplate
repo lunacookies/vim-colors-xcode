@@ -12,7 +12,8 @@ Color: base5        #7f8c98 ~
 Color: base6        #a3b1bf ~
 Color: base7        #dfdfe0 ~
 
-Color: deep_blue    #1266ca ~
+Color: deep_blue0   #0f5bca ~
+Color: deep_blue1   #4484d1 ~
 Color: deep_yellow  #fef937 ~
 
 Color: green_wash   #243330 ~
