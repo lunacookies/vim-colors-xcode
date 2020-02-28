@@ -8,6 +8,7 @@ Neovim:     yes
 
 Include: _doc_header
 Include: _emph
+Include: _match_paren_style
 
 #
 # Palette
@@ -170,4 +171,10 @@ markdownCode      cyan          base2
     IdentifierDef indigo       none
     LocalIdent    green        none
     LibraryIdent  cyan         none
+#endif
+
+#if g:@shortname_match_paren_style
+    MatchParen base0 deep_yellow
+#else
+    MatchParen base7 deep_blue
 #endif

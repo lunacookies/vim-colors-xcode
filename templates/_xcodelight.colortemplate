@@ -4,6 +4,7 @@ Neovim:     yes
 Include: _doc_header
 Include: _green_comments
 Include: _emph
+Include: _match_paren_style
 
 #
 # Terminal Colour Palette
@@ -141,4 +142,10 @@ markdownCode      purple    base1
     IdentifierDef blue        none
     LocalIdent    teal        none
     LibraryIdent  purple      none
+#endif
+
+#if g:@shortname_match_paren_style
+    MatchParen base6 deep_yellow
+#else
+    MatchParen base0 deep_blue
 #endif

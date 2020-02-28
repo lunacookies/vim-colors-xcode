@@ -1,0 +1,16 @@
+#if !exists('g:@shortname_match_paren_style')
+    #let g:@shortname_match_paren_style = 0
+#endif
+
+documentation
+
+---------------------------------------------------------------------------
+                                              *g:@shortname_match_paren_style*
+
+Set to 0 to use the UI’s blue colour for matching surrounds (e.g. parentheses),
+or set to 1 to use Xcode’s original yellow colour, which may cause confusion
+with the cursor. The default is 0.
+>
+    let g:@shortname_match_paren_style = 0
+<
+enddocumentation
