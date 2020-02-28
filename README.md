@@ -58,6 +58,26 @@ These plugins are specifically supported:
 
 - [Matchup](https://github.com/andymass/vim-matchup)
 - [Searchlight](https://github.com/PeterRincker/vim-searchlight)
+- [Signify](https://github.com/mhinz/vim-signify)
+
+To get the closest experience to Xcode it is recommended that you use the following configuration for Signify:
+
+```viml
+let g:signify_sign_add    = '┃'
+let g:signify_sign_change = '┃'
+let g:signify_sign_delete = '•'
+
+let g:signify_sign_show_count = 0 " Don’t show the number of deleted lines.
+```
+
+Xcode updates its Git gutter signs immediately upon editing. To achieve this you can add the following to your `vimrc`:
+
+```viml
+" Update Git signs every time the text is changed
+autocmd User SignifySetup
+            \ execute 'autocmd! signify' |
+            \ autocmd signify TextChanged,TextChangedI * call sy#start()
+```
 </details>
 
 <details>
