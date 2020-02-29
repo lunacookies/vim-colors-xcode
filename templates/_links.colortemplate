@@ -125,6 +125,7 @@ rsLibraryFunc      -> LibraryFunc
 rsLibraryType      -> LibraryType
 rsUserConst        -> LocalIdent
 rsUserFunc         -> LocalFunc
+rsUserMethod       -> LibraryFunc
 rsUserType         -> LocalType
 scssAttribute      -> cssNoise
 scssInclude        -> Keyword
