@@ -35,6 +35,14 @@ Set to 1 to emphasise identifiers over types and functions. The default is 0.
 <
 
 ---------------------------------------------------------------------------
+                                                    *g:xcodelighthc_emph_statements*
+
+Set to 1 to emphasise statements. The default is 1.
+>
+    let g:xcodelighthc_emph_statements = 1
+<
+
+---------------------------------------------------------------------------
                                               *g:xcodelighthc_match_paren_style*
 
 Set to 0 to use the UI’s blue colour for matching surrounds (e.g. parentheses),

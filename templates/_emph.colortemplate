@@ -10,6 +10,10 @@
     #let g:@shortname_emph_idents = 0
 #endif
 
+#if !exists('g:@shortname_emph_statements')
+    #let g:@shortname_emph_statements = 1
+#endif
+
 documentation
 
 ---------------------------------------------------------------------------
@@ -34,5 +38,13 @@ Set to 1 to emphasise functions over types and identifiers. The default is 0.
 Set to 1 to emphasise identifiers over types and functions. The default is 0.
 >
     let g:@shortname_emph_idents = 0
+<
+
+---------------------------------------------------------------------------
+                                                    *g:@shortname_emph_statements*
+
+Set to 1 to emphasise statements. The default is 1.
+>
+    let g:@shortname_emph_statements = 1
 <
 enddocumentation

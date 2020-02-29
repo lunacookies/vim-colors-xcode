@@ -73,7 +73,6 @@ Comment        base4       none
 Error          base0       red
 PreProc        brown       none
 Special        dark_teal   none
-Statement      pink        none bold
 
 Character      strong_blue none
 Delimiter      base5       none
@@ -143,6 +142,12 @@ markdownCode      purple    base1
     IdentifierDef blue        none
     LocalIdent    teal        none
     LibraryIdent  purple      none
+#endif
+
+#if g:@shortname_emph_statements
+    Statement pink none bold
+#else
+    Statement pink none
 #endif
 
 #if g:@shortname_match_paren_style
