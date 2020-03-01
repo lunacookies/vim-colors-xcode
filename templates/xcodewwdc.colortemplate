@@ -7,7 +7,9 @@ Background: dark
 Neovim:     yes
 
 Include: _doc_header
-Include: _emph
+Include: _emph_types
+Include: _emph_funcs
+Include: _emph_idents
 Include: _match_paren_style
 
 #

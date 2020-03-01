@@ -1,0 +1,14 @@
+#if !exists('g:@shortname_emph_types')
+    #let g:@shortname_emph_types = 1
+#endif
+
+documentation
+
+---------------------------------------------------------------------------
+                                                     *g:@shortname_emph_types*
+
+Set to 1 to emphasise types over functions and identifiers. The default is 1.
+>
+    let g:@shortname_emph_types = 1
+<
+enddocumentation
