@@ -47,7 +47,7 @@ These colourschemes have been carefully tuned for the following language plugins
 - Rust ([arzg/vim-rust-syntax-ext](https://github.com/arzg/vim-rust-syntax-ext))
 - SCSS ([cakebaker/scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim))
 - Swift ([arzg/vim-swift](https://github.com/arzg/vim-swift))
-- TypeScript ([HerringtonDarkholme/yats.vim](https://github.com/HerringtonDarkholme/yats.vim)) – make sure you set `let g:yats_host_keyword = 0`
+- TypeScript ([HerringtonDarkholme/yats.vim](https://github.com/HerringtonDarkholme/yats.vim))
 - Vim help (built-in)
 - VimL (built-in)
 </details>
