@@ -45,12 +45,12 @@ Keyword            -> Statement
 Label              -> Statement
 Repeat             -> Statement
 StorageClass       -> Statement
+Structure          -> Statement
 
 Define             -> PreProc
 Macro              -> PreProc
 PreCondit          -> PreProc
 
-Structure          -> Type
 Type               -> LocalType # Assume that types are local to the project.
 
 Debug              -> Special
