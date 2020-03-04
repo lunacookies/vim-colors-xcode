@@ -109,6 +109,7 @@ jsExceptions       -> LibraryType
 jsFuncArgCommas    -> jsNoise
 jsFuncName         -> FunctionDef
 jsFunction         -> jsStatement
+jsGlobalNodeObjects -> jsGlobalObjects
 jsGlobalObjects    -> LibraryType
 jsObjectProp       -> LocalIdent
 jsOperatorKeyword  -> jsStatement
