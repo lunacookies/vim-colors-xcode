@@ -115,7 +115,9 @@ jsObjectProp       -> LocalIdent
 jsOperatorKeyword  -> jsStatement
 jsThis             -> jsStatement
 jsVariableDef      -> IdentifierDef
+jsonKeyword        -> jsonString
 jsonKeywordMatch   -> Operator
+jsonQuote          -> StringDelimiter
 rsForeignConst     -> LibraryIdent
 rsForeignFunc      -> LibraryFunc
 rsForeignType      -> LibraryType
