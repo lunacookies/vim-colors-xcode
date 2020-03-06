@@ -51,7 +51,7 @@ Define             -> PreProc
 Macro              -> PreProc
 PreCondit          -> PreProc
 
-Type               -> LocalType # Assume that types are local to the project.
+Type               -> LibraryType # Assume that types are from libraries.
 
 Debug              -> Special
 SpecialChar        -> Special
