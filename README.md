@@ -84,12 +84,15 @@ autocmd User SignifySetup
 <details>
 <summary>Options</summary>
 
-Use `:help xcode<variant>`, where variant is either `dark`, `darkhc`, `light`, `lighthc`, or `wwdc`, to view a list of all the possible options from within Vim. Add `g:xcode<variant>_` in front of every option name for use. For example, `emph_funcs` would turn into `g:xcodedarkhc_emph_funcs` if you want it to apply to the dark high contrast variant and `g:xcodelight_emph_funcs` for the light version.
+Use `:help xcode<variant>`, where variant is either `dark`, `darkhc`, `light`, `lighthc`, or `wwdc`, to view a list of all the possible options and their default values. Add `g:xcode<variant>_` in front of every option name for use. For example, `emph_funcs` would turn into `g:xcodedarkhc_emph_funcs` if you want it to apply to the dark high contrast variant and `g:xcodelight_emph_funcs` for the light version.
 
 _Note that I’ve only added screenshots of the light and dark variants for the options below for reasons of brevity._
 
 <details>
 <summary>Comment Style</summary>
+
+- This option does not exist in the WWDC colourscheme
+- The default value is `0`
 
 | <sup>`green_comments`</sup> | Dark | Light |
 | -- | -- | -- |
@@ -100,6 +103,9 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 <details>
 <summary>Punctuation Dimming</summary>
 
+- This option is available in all colourschemes
+- The default value is `1`
+
 | <sup>`dim_punctuation`</sup> | Dark | Light |
 | -- | -- | -- |
 | `0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-0-light.png) |
@@ -108,6 +114,9 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 
 <details>
 <summary>Syntax Item Emphasis</summary>
+
+- This option is available in all colourschemes
+- The default values are `1`, `0` and `0`, for `emph_types`, `emph_funcs` and `emph_idents` respectively
 
 | <sup>`emph_types`, `emph_funcs`, `emph_idents`</sup> | Dark | Light |
 | -- | -- | -- |
@@ -118,6 +127,9 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 
 <details>
 <summary>MatchParen style</summary>
+
+- This option is available in all colourschemes
+- The default value is `0`
 
 | <sup>`match_paren_style`</sup> | Dark | Light |
 | -- | -- | -- |
