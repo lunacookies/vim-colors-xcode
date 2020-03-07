@@ -43,3 +43,11 @@ with the cursor. The default is 0.
 >
     let g:xcodedarkhc_match_paren_style = 0
 <
+
+---------------------------------------------------------------------------
+                                                *g:xcodedarkhc_dim_punctuation*
+
+Set to 1 to dim punctuation (Delimiters and Operators). The default is 1.
+>
+    let g:xcodedarkhc_dim_punctuation = 1
+<

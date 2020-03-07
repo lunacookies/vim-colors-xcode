@@ -1,0 +1,14 @@
+#if !exists('g:@shortname_dim_punctuation')
+    #let g:@shortname_dim_punctuation = 1
+#endif
+
+documentation
+
+---------------------------------------------------------------------------
+                                                *g:@shortname_dim_punctuation*
+
+Set to 1 to dim punctuation (Delimiters and Operators). The default is 1.
+>
+    let g:@shortname_dim_punctuation = 1
+<
+enddocumentation

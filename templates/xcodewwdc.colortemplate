@@ -11,6 +11,7 @@ Include: _emph_types
 Include: _emph_funcs
 Include: _emph_idents
 Include: _match_paren_style
+Include: _dim_punctuation
 
 #
 # Palette
@@ -114,10 +115,8 @@ Special        indigo       none
 Statement      purple       none
 
 Character      orange       none
-Delimiter      base6        none
 Directory      cyan         none
 Number         orange       none
-Operator       base6        none
 SpecialComment strong_green none
 String         red          none
 Title          base7        none bold
@@ -181,4 +180,12 @@ markdownCode      cyan          base2
     MatchParen base0 deep_yellow
 #else
     MatchParen base7 deep_blue0
+#endif
+
+#if g:@shortname_dim_punctuation
+    Delimiter base6 none
+    Operator  base6 none
+#else
+    Delimiter base7 none
+    Operator  base7 none
 #endif

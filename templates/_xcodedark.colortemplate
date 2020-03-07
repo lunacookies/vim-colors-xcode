@@ -7,6 +7,7 @@ Include: _emph_types
 Include: _emph_funcs
 Include: _emph_idents
 Include: _match_paren_style
+Include: _dim_punctuation
 
 #
 # Terminal Colour Palette
@@ -77,10 +78,8 @@ Special        teal         none
 Statement      pink         none bold
 
 Character      yellow       none
-Delimiter      base6        none
 Directory      light_blue   none
 Number         yellow       none
-Operator       base6        none
 SpecialComment base6        none
 String         red          none
 Title          base7        none bold
@@ -150,4 +149,12 @@ markdownCode      light_purple base2
     MatchParen base0 deep_yellow
 #else
     MatchParen base7 deep_blue0
+#endif
+
+#if g:@shortname_dim_punctuation
+    Delimiter base6 none
+    Operator  base6 none
+#else
+    Delimiter base7 none
+    Operator  base7 none
 #endif
