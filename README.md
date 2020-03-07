@@ -98,6 +98,15 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 </details>
 
 <details>
+<summary>Punctuation Dimming</summary>
+
+| <sup>`dim_punctuation`</sup> | Dark | Light |
+| -- | -- | -- |
+| `0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-0-light.png) |
+| `1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-1-light.png) |
+</details>
+
+<details>
 <summary>Syntax Item Emphasis</summary>
 
 | <sup>`emph_types`, `emph_funcs`, `emph_idents`</sup> | Dark | Light |
