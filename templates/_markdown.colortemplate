@@ -8,4 +8,5 @@ markdownLinkDelimiter       -> markdownDelimiter
 markdownLinkText            -> None
 markdownLinkTextDelimiter   -> markdownDelimiter
 markdownListMarker          -> markdownDelimiter
+markdownRule                -> markdownDelimiter
 markdownUrl                 -> Underlined
