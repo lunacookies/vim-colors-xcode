@@ -129,8 +129,11 @@ rsIdentDef         -> IdentifierDef
 rsLibraryConst     -> LibraryIdent
 rsLibraryFunc      -> LibraryFunc
 rsLibraryType      -> LibraryType
+rsLifetimeDef      -> IdentifierDef
+rsSpecialLifetime  -> LibraryIdent
 rsUserConst        -> LocalIdent
 rsUserFunc         -> LocalFunc
+rsUserLifetime     -> LocalIdent
 rsUserMethod       -> LibraryFunc
 rsUserType         -> LocalType
 scssAttribute      -> cssNoise
