@@ -37,6 +37,7 @@ Use your favorite runtimepath/plugin manager. If you don’t have one, I recomme
 
 These colourschemes have been carefully tuned for the following language plugins:
 
+- Bib(La)TeX (built-in)
 - CSS ([hail2u/vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax))
 - Git ([tpope/vim-git](https://github.com/tpope/vim-git))
 - Go ([fatih/vim-go](https://github.com/fatih/vim-go))
