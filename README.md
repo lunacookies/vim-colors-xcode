@@ -29,7 +29,15 @@
 <details>
 <summary>Installation</summary>
 
-Use your favorite runtimepath/plugin manager. If you don’t have one, I recommend [Plug](https://github.com/junegunn/vim-plug).
+Use your favoured plugin manager to install arzg/vim-colors-xcode then set the colorscheme in your vimrc file.
+
+If using vim-plug do the following:
+
+    Add Plug 'arzg/vim-colors-xcode' to your vimrc
+    Run :PlugInstall
+    Add colorscheme xcodewwdc to your vimrc, make sure this line appears after the Plug declaration.
+
+
 </details>
 
 <details>
