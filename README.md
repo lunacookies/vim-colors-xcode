@@ -44,6 +44,7 @@ These colourschemes have been carefully tuned for the following language plugins
 - HTML ([othree/html5.vim](https://github.com/othree/html5.vim))
 - JSON (built-in)
 - JavaScript ([pangloss/vim-javascript](https://github.com/pangloss/vim-javascript))
+- Jinja 2 ([Glench/Vim-Jinja2-Syntax](https://github.com/Glench/Vim-Jinja2-Syntax))
 - Markdown ([tpope/vim-markdown](https://github.com/tpope/vim-markdown))
 - Rust ([arzg/vim-rust-syntax-ext](https://github.com/arzg/vim-rust-syntax-ext))
 - SCSS ([cakebaker/scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim))
