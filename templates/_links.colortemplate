@@ -11,6 +11,9 @@ StatusLineTermNC -> StatusLineNC
 
 VisualNOS        -> Visual
 
+# Emphasise the text in the message area/command-line 
+MsgArea          -> Title
+
 # Diff
 
 diffAdded          -> DiffAdd
