@@ -150,7 +150,7 @@ If you’re using a GUI, then vim-colors-xcode should work out of the box. Howev
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
-| Black      | `#393b44` | `#7f8c98` |
+| Black      | `#414453` | `#7f8c98` |
 | Red        | `#ff8170` | `#ff8170` |
 | Green      | `#78c2b3` | `#acf2e4` |
 | Yellow     | `#d9c97c` | `#ffa14f` |
@@ -167,7 +167,7 @@ If you’re using a GUI, then vim-colors-xcode should work out of the box. Howev
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
-| Black      | `#34353b` | `#838991` |
+| Black      | `#43454b` | `#838991` |
 | Red        | `#ff8a7a` | `#ff8a7a` |
 | Green      | `#83c9bc` | `#b1faeb` |
 | Yellow     | `#d9c668` | `#ffa14f` |
@@ -184,7 +184,7 @@ If you’re using a GUI, then vim-colors-xcode should work out of the box. Howev
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
-| Black      | `#e5e5e5` | `#8a99a6` |
+| Black      | `#b4d8fd` | `#8a99a6` |
 | Red        | `#d12f1b` | `#d12f1b` |
 | Green      | `#3e8087` | `#23575c` |
 | Yellow     | `#78492a` | `#78492a` |
@@ -201,7 +201,7 @@ If you’re using a GUI, then vim-colors-xcode should work out of the box. Howev
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
-| Black      | `#e5e5e5` | `#8a99a6` |
+| Black      | `#b4d8fd` | `#8a99a6` |
 | Red        | `#ad1805` | `#ad1805` |
 | Green      | `#355d61` | `#174145` |
 | Yellow     | `#78492a` | `#78492a` |
@@ -218,7 +218,7 @@ If you’re using a GUI, then vim-colors-xcode should work out of the box. Howev
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
-| Black      | `#383b45` | `#7f869e` |
+| Black      | `#494d5c` | `#7f869e` |
 | Red        | `#bb383a` | `#bb383a` |
 | Green      | `#94c66e` | `#94c66e` |
 | Yellow     | `#d28e5d` | `#d28e5d` |
