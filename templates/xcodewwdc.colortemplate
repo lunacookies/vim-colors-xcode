@@ -49,7 +49,7 @@ Color: light_cyan   #64dcd4 ~
 Color: deep_green   #23ad68 ~
 Color: strong_green #35d585 ~
 
-Term colors: base2  red    green orange
+Term colors: base3  red    green orange
 Term colors: indigo purple cyan  base7
 Term colors: base5  red    green orange
 Term colors: indigo purple cyan  base7

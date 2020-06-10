@@ -13,7 +13,7 @@ Include: _dim_punctuation
 # Terminal Colour Palette
 #
 
-Term colors: base2      red  teal         yellow
+Term colors: base3      red  teal         yellow
 Term colors: blue       pink purple       base7
 Term colors: base5      red  light_teal   orange
 Term colors: light_blue pink light_purple base7
