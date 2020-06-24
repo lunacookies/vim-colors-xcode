@@ -143,7 +143,13 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 <details>
 <summary>Usage</summary>
 
-If you’re using a GUI, then vim-colors-xcode should work out of the box. However, if you’re planning to use vim-colors-xcode in a terminal, the terminal must support 24-bit colour, also known as True Colour. If you want other terminal output to match with vim-colors-xcode, then set its colours to match the ones below:
+If you’re using a GUI, then vim-colors-xcode should work out of the box. However, if you’re planning to use vim-colors-xcode in a terminal, the terminal must support 24-bit colour, also known as True Colour. This can be enabled through the use of the following setting:
+
+```viml
+set termguicolors
+```
+
+If you want other terminal output to match with vim-colors-xcode, then set its colours to match the ones below:
 
 <details>
 <summary>Dark Palette</summary>
