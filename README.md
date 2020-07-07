@@ -33,6 +33,12 @@ Use your favorite runtimepath/plugin manager. If you don’t have one, I recomme
 </details>
 
 <details>
+<summary>Simplistic Installation</summary>
+cd <your clone path>/vim-colors/xcode
+find colors | cpio -pdmv ~/.vim/
+</details>
+
+<details>
 <summary>Language Support</summary>
 
 These colourschemes have been carefully tuned for the following language plugins:
