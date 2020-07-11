@@ -190,4 +190,18 @@ markdownCode      cyan          base2
     Operator  base7 none
 #endif
 
-Include: _airline_wwdc
+#
+# Airline
+#
+
+Include: _airline_header
+
+auxfile autoload/airline/themes/@shortname.vim
+let s:airlineWarning = '@guiorange'
+let s:airlineModified = '@guilight_indigo'
+let s:airlineInsert = '@guideep_yellow'
+let s:airlineVisual = '@guipurple'
+let s:airlineReplace = '@guiindigo'
+endauxfile
+
+Include: _airline

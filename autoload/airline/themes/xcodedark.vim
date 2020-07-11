@@ -3,32 +3,36 @@
 " Author:       Aramis
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-
+let s:airlineWarning = '#ff8170'
+let s:airlineModified = '#dabaff'
+let s:airlineInsert = '#d9c97c'
+let s:airlineVisual = '#ff7ab2'
+let s:airlineReplace = '#b281eb'
 let g:airline#themes#xcodedark#palette = {}
 
 function! airline#themes#xcodedark#refresh()
   " Normal mode
-  let s:N1 = ['#292a30', '#a3b1bf', '']
-  let s:N2 = [s:N1[0], '#7f8c98', '']
-  let s:N3 = ['#dfdfe0', '#414453', '']
-  let s:NW = [s:N1[0], '#ff8170', '']
-  let s:NM = ['#dabaff', s:N3[1], '']
+  let s:N1 = ['#292a30', '#7f8c98', '']
+  let s:N2 = [s:N1[0], '#53606e', '']
+  let s:N3 = ['#a3b1bf', '#414453', '']
+  let s:NW = [s:N1[0], s:airlineWarning, '']
+  let s:NM = [s:airlineModified, s:N3[1], '']
   let s:NMi = s:NM
 
   " Insert mode
-  let s:I1 = [s:N1[0], '#d9c97c', '']
+  let s:I1 = [s:N1[0], s:airlineInsert, '']
   let s:I2 = s:N2
   let s:I3 = s:N3
   let s:IM = s:NM
 
   " Visual mode
-  let s:V1 = [s:N1[0], '#ff7ab2', '']
+  let s:V1 = [s:N1[0], s:airlineVisual, '']
   let s:V2 = s:N2
   let s:V3 = s:N3
   let s:VM = s:NM
 
   " Replace mode
-  let s:R1 = [s:N1[0], '#b281eb', '']
+  let s:R1 = [s:N1[0], s:airlineReplace, '']
   let s:R2 = s:N2
   let s:R3 = s:N3
   let s:RM = s:NM

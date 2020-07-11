@@ -1,35 +1,29 @@
 auxfile autoload/airline/themes/@shortname.vim
-" Name:         @shortname
-" Description:  @description
-" Author:       @author
-" Maintainer:   @maintainer
-" License:      @license
-
 let g:airline#themes#@shortname#palette = {}
 
 function! airline#themes#@shortname#refresh()
   " Normal mode
-  let s:N1 = ['@guibase0', '@guibase6', '']
-  let s:N2 = [s:N1[0], '@guibase5', '']
-  let s:N3 = ['@guibase7', '@guibase3', '']
-  let s:NW = [s:N1[0], '@guired', '']
-  let s:NM = ['@guilight_purple', s:N3[1], '']
+  let s:N1 = ['@guibase0', '@guibase5', '']
+  let s:N2 = [s:N1[0], '@guibase4', '']
+  let s:N3 = ['@guibase6', '@guibase3', '']
+  let s:NW = [s:N1[0], s:airlineWarning, '']
+  let s:NM = [s:airlineModified, s:N3[1], '']
   let s:NMi = s:NM
 
   " Insert mode
-  let s:I1 = [s:N1[0], '@guiyellow', '']
+  let s:I1 = [s:N1[0], s:airlineInsert, '']
   let s:I2 = s:N2
   let s:I3 = s:N3
   let s:IM = s:NM
 
   " Visual mode
-  let s:V1 = [s:N1[0], '@guipink', '']
+  let s:V1 = [s:N1[0], s:airlineVisual, '']
   let s:V2 = s:N2
   let s:V3 = s:N3
   let s:VM = s:NM
 
   " Replace mode
-  let s:R1 = [s:N1[0], '@guipurple', '']
+  let s:R1 = [s:N1[0], s:airlineReplace, '']
   let s:R2 = s:N2
   let s:R3 = s:N3
   let s:RM = s:NM

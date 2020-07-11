@@ -159,3 +159,19 @@ markdownCode      purple    base1
     Delimiter base6 none
     Operator  base6 none
 #endif
+
+#
+# Airline
+#
+
+Include: _airline_header
+
+auxfile autoload/airline/themes/@shortname.vim
+let s:airlineWarning = '@guired'
+let s:airlineModified = '@guipurple'
+let s:airlineInsert = '@guistrong_blue'
+let s:airlineVisual = '@guipink'
+let s:airlineReplace = '@guidark_purple'
+endauxfile
+
+Include: _airline

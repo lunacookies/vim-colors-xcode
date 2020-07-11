@@ -1,0 +1,7 @@
+auxfile autoload/airline/themes/@shortname.vim
+" Name:         @shortname
+" Description:  @description
+" Author:       @author
+" Maintainer:   @maintainer
+" License:      @license
+endauxfile

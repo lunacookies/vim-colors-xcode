@@ -37,5 +37,3 @@ Color: green        #84b360 ~
 Color: light_green  #b0e687 ~
 
 Include: _xcodedark
-Include: _airline_dark
-
