@@ -189,3 +189,5 @@ markdownCode      cyan          base2
     Delimiter base7 none
     Operator  base7 none
 #endif
+
+Include: _airline_wwdc

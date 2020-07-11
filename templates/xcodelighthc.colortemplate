@@ -37,3 +37,4 @@ Color: dark_teal   #174145 ~
 Color: teal        #355d61 ~
 
 Include: _xcodelight
+Include: _airline_lighthc
