@@ -65,6 +65,7 @@ These colourschemes have been carefully tuned for the following language plugins
 
 These plugins are specifically supported:
 
+- [Airline](https://github.com/vim-airline/vim-airline)
 - [Matchup](https://github.com/andymass/vim-matchup)
 - [Searchlight](https://github.com/PeterRincker/vim-searchlight)
 - [Signify](https://github.com/mhinz/vim-signify)
