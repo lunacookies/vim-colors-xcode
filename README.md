@@ -260,7 +260,7 @@ If you want other terminal output to match with vim-colors-xcode, then set its c
 
 iTerm presets for all these palettes are included with this repository.
 
-If you would like to have italic comments add the following to your `vimrc`:
+If you would like to have italic comments, add the following to your `vimrc`:
 
 ```viml
 augroup vim-colors-xcode
