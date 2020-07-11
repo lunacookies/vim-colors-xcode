@@ -29,13 +29,18 @@
 <details>
 <summary>Installation</summary>
 
-Use your favorite runtimepath/plugin manager. If you don’t have one, I recommend [Plug](https://github.com/junegunn/vim-plug).
-</details>
+Use your favorite runtimepath/plugin manager. If you don’t have one, I recommend [Plug](https://github.com/junegunn/vim-plug):
 
-<details>
-<summary>Simplistic Installation</summary>
-cd <your clone path>/vim-colors/xcode
-find colors | cpio -pdmv ~/.vim/
+```viml
+Plug 'arzg/vim-colors-xcode'
+```
+
+Or, alternatively, you can install the old-fashioned way by copying the relevant directories right into `~/.vim`:
+
+```console
+$ git clone https://github.com/arzg/vim-colors-xcode.git
+$ cp -r vim-colors-xcode/{autoload,colors,doc} ~/.vim
+```
 </details>
 
 <details>
