@@ -48,7 +48,7 @@ ErrorMsg       red          none
 ModeMsg        base5        none
 MoreMsg        pink         none
 Question       pink         none
-WarningMsg     red          none
+WarningMsg     orange       none
 
 ColorColumn    none         base1
 CursorColumn   none         base1

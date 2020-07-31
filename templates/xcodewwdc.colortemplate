@@ -85,7 +85,7 @@ ErrorMsg       red          none bold
 ModeMsg        base5        none
 MoreMsg        cyan         none
 Question       cyan         none
-WarningMsg     red          none bold
+WarningMsg     orange       none bold
 
 ColorColumn    none         base1
 CursorColumn   none         base1

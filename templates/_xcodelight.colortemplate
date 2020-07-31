@@ -49,7 +49,7 @@ ErrorMsg       red         none
 ModeMsg        base4       none
 MoreMsg        pink        none
 Question       pink        none
-WarningMsg     red         none
+WarningMsg     brown       none
 
 ColorColumn    none        base1
 CursorColumn   none        light_aqua
