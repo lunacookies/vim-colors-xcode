@@ -13,9 +13,9 @@ Include: _emph_idents
 Include: _match_paren_style
 Include: _dim_punctuation
 
-#
-# Palette
-#
+;
+; Palette
+;
 
 Color: base0        #292c36 ~
 Color: base1        #2f323d ~
@@ -54,15 +54,15 @@ Term colors: indigo purple cyan  base7
 Term colors: base5  red    green orange
 Term colors: indigo purple cyan  base7
 
-#
-# Highlighting
-#
+;
+; Highlighting
+;
 
 Normal         base7        base0
 Cursor         base0        base7
 None           base7        none
 
-# Vim Interface
+; Vim Interface
 
 CursorLineNr   base7        base1
 EndOfBuffer    base0        base0
@@ -106,7 +106,7 @@ DiffChange     orange       none
 DiffDelete     red          red_wash
 DiffText       orange       orange_wash
 
-# Syntax
+; Syntax
 
 Comment        deep_green   none
 Error          base0        red
@@ -128,11 +128,11 @@ SpellCap       none         none undercurl
 SpellLocal     none         none undercurl
 SpellRare      none         none undercurl
 
-# indentLine
+; indentLine
 #let g:indentLine_color_gui  = '@guibase4'
 #let g:indentLine_color_term = @term256base4
 
-# Limelight
+; Limelight
 #let g:limelight_conceal_guifg = '@guibase5'
 #let g:limelight_conceal_ctermfg = @term256base5
 
@@ -142,9 +142,9 @@ Include: _markdown
 markdownDelimiter slate         none
 markdownCode      cyan          base2
 
-#
-# Config
-#
+;
+; Config
+;
 
 #if g:@shortname_emph_types
     Typedef     light_indigo none
@@ -190,9 +190,9 @@ markdownCode      cyan          base2
     Operator  base7 none
 #endif
 
-#
-# Airline
-#
+;
+; Airline
+;
 
 Include: _airline_header
 

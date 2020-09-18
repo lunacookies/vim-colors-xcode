@@ -9,24 +9,24 @@ Include: _emph_idents
 Include: _match_paren_style
 Include: _dim_punctuation
 
-#
-# Terminal Colour Palette
-#
+;
+; Terminal Colour Palette
+;
 
 Term colors: aqua      red  teal        brown
 Term colors: blue      pink purple      base6
 Term colors: base4     red  dark_teal   brown
 Term colors: dark_blue pink dark_purple base6
 
-#
-# Highlighting
-#
+;
+; Highlighting
+;
 
 Normal         base6       base0
 Cursor         base0       base6
 None           base6       none
 
-# Vim Interface
+; Vim Interface
 
 CursorLineNr   base6       light_aqua
 EndOfBuffer    base0       base0
@@ -70,7 +70,7 @@ DiffChange     none        none
 DiffDelete     none        red_wash
 DiffText       none        yellow_wash
 
-# Syntax
+; Syntax
 
 Comment        base4       none
 Error          base0       red
@@ -92,11 +92,11 @@ SpellCap       none        none undercurl
 SpellLocal     none        none undercurl
 SpellRare      none        none undercurl
 
-# indentLine
+; indentLine
 #let g:indentLine_color_gui  = '@guibase3'
 #let g:indentLine_color_term = @term256base3
 
-# Limelight
+; Limelight
 #let g:limelight_conceal_guifg = '@guibase4'
 #let g:limelight_conceal_ctermfg = @term256base4
 
@@ -106,9 +106,9 @@ Include: _markdown
 markdownDelimiter teal      none
 markdownCode      purple    base1
 
-#
-# Config
-#
+;
+; Config
+;
 
 #if g:@shortname_green_comments
     Comment        green none
@@ -160,9 +160,9 @@ markdownCode      purple    base1
     Operator  base6 none
 #endif
 
-#
-# Airline
-#
+;
+; Airline
+;
 
 Include: _airline_header
 

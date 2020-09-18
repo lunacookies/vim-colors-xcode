@@ -1,4 +1,4 @@
-# Vim Interface
+; Vim Interface
 
 Terminal         -> Normal
 
@@ -11,10 +11,10 @@ StatusLineTermNC -> StatusLineNC
 
 VisualNOS        -> Visual
 
-# Emphasise the text in the message area/command-line 
+; Emphasise the text in the message area/command-line 
 MsgArea          -> Title
 
-# Diff
+; Diff
 
 diffAdded          -> DiffAdd
 diffBDiffer        -> WarningMsg
@@ -29,10 +29,10 @@ diffNoEOL          -> WarningMsg
 diffOnly           -> WarningMsg
 diffRemoved        -> DiffDelete
 
-# Syntax
+; Syntax
 
-# Assume constants (which are always highlighted the same as identifiers) are
-# from libraries.
+; Assume constants (which are always highlighted the same as identifiers) are
+; from libraries.
 Constant           -> LibraryIdent
 Float              -> Number
 StringDelimiter    -> String
