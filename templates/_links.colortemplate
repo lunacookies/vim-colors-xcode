@@ -68,6 +68,8 @@ NonText            -> Ignore
 SpecialKey         -> Ignore
 Whitespace         -> Ignore
 
+ALEVirtualTextError -> ErrorMsg
+ALEVirtualTextWarning -> WarningMsg
 Searchlight        -> IncSearch
 SignifySignAdd     -> Signify
 SignifySignChange  -> Signify
