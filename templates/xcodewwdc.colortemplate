@@ -7,6 +7,7 @@ Background: dark
 Neovim:     yes
 
 Include: _doc_header
+Include: _green_comments
 Include: _emph_types
 Include: _emph_funcs
 Include: _emph_idents
@@ -108,7 +109,7 @@ DiffText       orange       orange_wash
 
 ; Syntax
 
-Comment        deep_green   none
+Comment        base5        none
 Error          base0        red
 PreProc        orange       none
 Special        indigo       none
@@ -117,10 +118,10 @@ Statement      purple       none
 Character      orange       none
 Directory      cyan         none
 Number         orange       none
-SpecialComment strong_green none
+SpecialComment base6        none
 String         red          none
 Title          base7        none bold
-Todo           strong_green none bold
+Todo           base6        none bold
 Underlined     cyan         none underline
 
 SpellBad       none         none undercurl
@@ -145,6 +146,12 @@ markdownCode      cyan          base2
 ;
 ; Config
 ;
+
+#if g:@shortname_green_comments
+    Comment        deep_green   none
+    SpecialComment strong_green none
+    Todo           strong_green none bold
+#endif
 
 #if g:@shortname_emph_types
     Typedef     light_indigo none
