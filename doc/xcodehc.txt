@@ -1,0 +1,106 @@
+===========================================================================
+Xcode High Contrast options                                         *xcodehc-options*
+
+---------------------------------------------------------------------------
+                                                 *g:xcodehc_green_comments*
+
+Set to 1 if you want to make comments green in the same way that Xcode’s
+‘Classic’ (rather than ‘Default’) series of themes do. The default is 0.
+>
+    let g:xcodehc_green_comments = 0
+<
+
+---------------------------------------------------------------------------
+                                                     *g:xcodehc_emph_types*
+
+Set to 1 to emphasise types over functions and identifiers. The default is 1.
+>
+    let g:xcodehc_emph_types = 1
+<
+
+---------------------------------------------------------------------------
+                                                     *g:xcodehc_emph_funcs*
+
+Set to 1 to emphasise functions over types and identifiers. The default is 0.
+>
+    let g:xcodehc_emph_funcs = 0
+<
+
+---------------------------------------------------------------------------
+                                                    *g:xcodehc_emph_idents*
+
+Set to 1 to emphasise identifiers over types and functions. The default is 0.
+>
+    let g:xcodehc_emph_idents = 0
+<
+
+---------------------------------------------------------------------------
+                                              *g:xcodehc_match_paren_style*
+
+Set to 0 to use the UI’s blue colour for matching surrounds (e.g. parentheses),
+or set to 1 to use Xcode’s original yellow colour, which may cause confusion
+with the cursor. The default is 0.
+>
+    let g:xcodehc_match_paren_style = 0
+<
+
+---------------------------------------------------------------------------
+                                                *g:xcodehc_dim_punctuation*
+
+Set to 1 to dim punctuation (Delimiters and Operators). The default is 1.
+>
+    let g:xcodehc_dim_punctuation = 1
+<
+===========================================================================
+Xcode High Contrast options                                         *xcodehc-options*
+
+---------------------------------------------------------------------------
+                                                 *g:xcodehc_green_comments*
+
+Set to 1 if you want to make comments green in the same way that Xcode’s
+‘Classic’ (rather than ‘Default’) series of themes do. The default is 0.
+>
+    let g:xcodehc_green_comments = 0
+<
+
+---------------------------------------------------------------------------
+                                                     *g:xcodehc_emph_types*
+
+Set to 1 to emphasise types over functions and identifiers. The default is 1.
+>
+    let g:xcodehc_emph_types = 1
+<
+
+---------------------------------------------------------------------------
+                                                     *g:xcodehc_emph_funcs*
+
+Set to 1 to emphasise functions over types and identifiers. The default is 0.
+>
+    let g:xcodehc_emph_funcs = 0
+<
+
+---------------------------------------------------------------------------
+                                                    *g:xcodehc_emph_idents*
+
+Set to 1 to emphasise identifiers over types and functions. The default is 0.
+>
+    let g:xcodehc_emph_idents = 0
+<
+
+---------------------------------------------------------------------------
+                                              *g:xcodehc_match_paren_style*
+
+Set to 0 to use the UI’s blue colour for matching surrounds (e.g. parentheses),
+or set to 1 to use Xcode’s original yellow colour, which may cause confusion
+with the cursor. The default is 0.
+>
+    let g:xcodehc_match_paren_style = 0
+<
+
+---------------------------------------------------------------------------
+                                                *g:xcodehc_dim_punctuation*
+
+Set to 1 to dim punctuation (Delimiters and Operators). The default is 1.
+>
+    let g:xcodehc_dim_punctuation = 1
+<
