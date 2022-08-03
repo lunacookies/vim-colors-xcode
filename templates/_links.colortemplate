@@ -82,7 +82,7 @@ cssAttr            -> Keyword
 cssBraces          -> cssNoise
 cssClassName       -> LocalIdent
 cssColor           -> cssAttr
-cssFunction        -> None
+cssFunction        -> Empty
 cssIdentifier      -> LocalIdent
 cssProp            -> LibraryType
 cssPseudoClassId   -> LibraryIdent
@@ -175,7 +175,7 @@ typescriptBOMWindowMethod -> LibraryFunc
 typescriptBOMWindowProp -> LibraryType
 typescriptBinaryOp -> Operator
 typescriptBraces   -> Delimiter
-typescriptCall     -> None
+typescriptCall     -> Empty
 typescriptClassHeritage -> Type
 typescriptClassName -> TypeDef
 typescriptDOMDocMethod -> LibraryFunc

@@ -24,7 +24,7 @@ Term colors: dark_blue pink dark_purple base6
 
 Normal         base6       base0
 Cursor         base0       base6
-None           base6       none
+Empty          base6       none
 
 ; Vim Interface
 
