@@ -1,3 +1,5 @@
+# ⚠️ this color scheme is no longer mainTained
+
 <h1 align="center">vim-colors-xcode</h1>
 
 <h3 align="center">A number of Xcode 11’s colourschemes, now for Vim!</h3>
@@ -16,14 +18,15 @@
 <summary>High contrast variants are available</summary>
 
 | `xcodedark`                                                                                 | `xcodedarkhc` (high-contrast)                                                                 |
-| --                                                                                          | --                                                                                            |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodedark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodedarkhc.png) |
 
 ---
 
 | `xcodelight`                                                                                 | `xcodelighthc` (high-contrast)                                                                 |
-| --                                                                                           | --                                                                                             |
+| -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodelight.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodelighthc.png) |
+
 </details>
 
 <details>
@@ -41,6 +44,7 @@ Or, alternatively, you can install the old-fashioned way by copying the relevant
 $ git clone https://github.com/arzg/vim-colors-xcode.git
 $ cp -r vim-colors-xcode/{autoload,colors,doc} ~/.vim
 ```
+
 </details>
 
 <details>
@@ -93,6 +97,7 @@ autocmd User SignifySetup
             \ execute 'autocmd! signify' |
             \ autocmd signify TextChanged,TextChangedI * call sy#start()
 ```
+
 </details>
 
 <details>
@@ -108,10 +113,11 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 - This option does not exist in the WWDC colourscheme
 - The default value is `0`
 
-| <sup>`green_comments`</sup> | Dark | Light |
-| -- | -- | -- |
-| `0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-0-light.png) |
-| `1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-1-light.png) |
+| <sup>`green_comments`</sup> | Dark                                                                                | Light                                                                                |
+| --------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| `0`                         | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-0-light.png) |
+| `1`                         | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-1-light.png) |
+
 </details>
 
 <details>
@@ -120,10 +126,11 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 - This option is available in all colourschemes
 - The default value is `1`
 
-| <sup>`dim_punctuation`</sup> | Dark | Light |
-| -- | -- | -- |
-| `0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-0-light.png) |
-| `1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-1-light.png) |
+| <sup>`dim_punctuation`</sup> | Dark                                                                              | Light                                                                              |
+| ---------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `0`                          | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-0-light.png) |
+| `1`                          | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-1-light.png) |
+
 </details>
 
 <details>
@@ -132,11 +139,12 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 - This option is available in all colourschemes
 - The default values are `1`, `0` and `0`, for `emph_types`, `emph_funcs` and `emph_idents` respectively
 
-| <sup>`emph_types`, `emph_funcs`, `emph_idents`</sup> | Dark | Light |
-| -- | -- | -- |
-| `1`,<br>`0`,<br>`0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-1-funcs-0-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-1-funcs-0-idents-0-light.png) |
-| `0`,<br>`1`,<br>`0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-light.png) |
-| `0`,<br>`1`,<br>`1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-light.png) |
+| <sup>`emph_types`, `emph_funcs`, `emph_idents`</sup> | Dark                                                                                                 | Light                                                                                                 |
+| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `1`,<br>`0`,<br>`0`                                  | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-1-funcs-0-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-1-funcs-0-idents-0-light.png) |
+| `0`,<br>`1`,<br>`0`                                  | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-light.png) |
+| `0`,<br>`1`,<br>`1`                                  | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-light.png) |
+
 </details>
 
 <details>
@@ -145,10 +153,11 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 - This option is available in all colourschemes
 - The default value is `0`
 
-| <sup>`match_paren_style`</sup> | Dark | Light |
-| -- | -- | -- |
-| `0` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-0-light.png) |
-| `1` | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-1-light.png) |
+| <sup>`match_paren_style`</sup> | Dark                                                                                     | Light                                                                                     |
+| ------------------------------ | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `0`                            | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-0-light.png) |
+| `1`                            | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-1-light.png) |
+
 </details>
 </details>
 
@@ -177,7 +186,7 @@ If you want other terminal output to match with vim-colors-xcode, then set its c
 <summary>Dark Palette</summary>
 
 | Colour     | Normal    | Bright    |
-| ---        | ---       | ---       |
+| ---------- | --------- | --------- |
 | Black      | `#414453` | `#7f8c98` |
 | Red        | `#ff8170` | `#ff8170` |
 | Green      | `#78c2b3` | `#acf2e4` |
@@ -188,13 +197,14 @@ If you want other terminal output to match with vim-colors-xcode, then set its c
 | White      | `#dfdfe0` | `#dfdfe0` |
 | Foreground | `#dfdfe0` |           |
 | Background | `#292a30` |           |
+
 </details>
 
 <details>
 <summary>Dark High Contrast Palette</summary>
 
 | Colour     | Normal    | Bright    |
-| ---        | ---       | ---       |
+| ---------- | --------- | --------- |
 | Black      | `#43454b` | `#838991` |
 | Red        | `#ff8a7a` | `#ff8a7a` |
 | Green      | `#83c9bc` | `#b1faeb` |
@@ -205,13 +215,14 @@ If you want other terminal output to match with vim-colors-xcode, then set its c
 | White      | `#ffffff` | `#ffffff` |
 | Foreground | `#ffffff` |           |
 | Background | `#1f1f24` |           |
+
 </details>
 
 <details>
 <summary>Light Palette</summary>
 
 | Colour     | Normal    | Bright    |
-| ---        | ---       | ---       |
+| ---------- | --------- | --------- |
 | Black      | `#b4d8fd` | `#8a99a6` |
 | Red        | `#d12f1b` | `#d12f1b` |
 | Green      | `#3e8087` | `#23575c` |
@@ -222,13 +233,14 @@ If you want other terminal output to match with vim-colors-xcode, then set its c
 | White      | `#262626` | `#262626` |
 | Foreground | `#262626` |           |
 | Background | `#ffffff` |           |
+
 </details>
 
 <details>
 <summary>Light High Contrast Palette</summary>
 
 | Colour     | Normal    | Bright    |
-| ---        | ---       | ---       |
+| ---------- | --------- | --------- |
 | Black      | `#b4d8fd` | `#8a99a6` |
 | Red        | `#ad1805` | `#ad1805` |
 | Green      | `#355d61` | `#174145` |
@@ -239,13 +251,14 @@ If you want other terminal output to match with vim-colors-xcode, then set its c
 | White      | `#000000` | `#000000` |
 | Foreground | `#000000` |           |
 | Background | `#ffffff` |           |
+
 </details>
 
 <details>
 <summary>WWDC Palette</summary>
 
 | Colour     | Normal    | Bright    |
-| ---        | ---       | ---       |
+| ---------- | --------- | --------- |
 | Black      | `#494d5c` | `#7f869e` |
 | Red        | `#bb383a` | `#bb383a` |
 | Green      | `#94c66e` | `#94c66e` |
@@ -256,6 +269,7 @@ If you want other terminal output to match with vim-colors-xcode, then set its c
 | White      | `#e7e8eb` | `#e7e8eb` |
 | Foreground | `#e7e8eb` |           |
 | Background | `#292c36` |           |
+
 </details>
 
 iTerm presets for all these palettes are included with this repository.
@@ -270,6 +284,7 @@ augroup END
 autocmd vim-colors-xcode ColorScheme * hi Comment        cterm=italic gui=italic
 autocmd vim-colors-xcode ColorScheme * hi SpecialComment cterm=italic gui=italic
 ```
+
 </details>
 
 The font in the screenshots is [SF Mono](https://developer.apple.com/videos/play/wwdc2016/803/?time=106), which you can download [from Apple’s website](https://developer.apple.com/fonts/).
