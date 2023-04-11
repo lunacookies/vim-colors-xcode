@@ -61,7 +61,7 @@ Term colors: indigo purple cyan  base7
 
 Normal         base7        base0
 Cursor         base0        base7
-None           base7        none
+Empty          base7        none
 
 ; Vim Interface
 

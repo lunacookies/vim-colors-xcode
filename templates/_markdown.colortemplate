@@ -5,7 +5,7 @@ markdownCodeDelimiter       -> markdownDelimiter
 markdownHeadingDelimiter    -> markdownDelimiter
 markdownItalicDelimiter     -> markdownDelimiter
 markdownLinkDelimiter       -> markdownDelimiter
-markdownLinkText            -> None
+markdownLinkText            -> Empty
 markdownLinkTextDelimiter   -> markdownDelimiter
 markdownListMarker          -> markdownDelimiter
 markdownRule                -> markdownDelimiter
