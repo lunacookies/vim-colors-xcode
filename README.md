@@ -1,4 +1,6 @@
-# ⚠️ this color scheme is no longer maintained
+# ⚠️ This color scheme is no longer actively maintained. If you have the time and interest to maintain this, please email me!
+
+---
 
 <h1 align="center">vim-colors-xcode</h1>
 
