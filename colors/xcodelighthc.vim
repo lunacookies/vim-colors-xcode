@@ -1,7 +1,7 @@
 " Name:         Xcode Light High Contrast
 " Description:  A Vim port of the high contrast light Xcode 11 colourscheme
-" Author:       Aramis Razzaghipour <aramisnoah@gmail.com>
-" Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
+" Author:       Luna Razzaghipour <lunarazzaghipour@gmail.com>
+" Maintainer:   Luna Razzaghipour <lunarazzaghipour@gmail.com>
 " License:      Vim License (see `:help license`)
 " Last Updated: Wed 18 Nov 14:46:32 2020
 

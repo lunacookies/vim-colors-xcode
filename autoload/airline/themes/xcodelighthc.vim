@@ -1,7 +1,7 @@
 " Name:         xcodelighthc
 " Description:  A Vim port of the high contrast light Xcode 11 colourscheme
-" Author:       Aramis
-" Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
+" Author:       Luna
+" Maintainer:   Luna Razzaghipour <lunarazzaghipour@gmail.com>
 " License:      Vim License (see `:help license`)
 let s:airlineWarning = '#ad1805'
 let s:airlineModified = '#703daa'

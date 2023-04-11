@@ -1,7 +1,7 @@
 " Name:         xcodewwdc
 " Description:  The colours from WWDC 2016’s marketing material
-" Author:       Aramis
-" Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
+" Author:       Luna
+" Maintainer:   Luna Razzaghipour <lunarazzaghipour@gmail.com>
 " License:      Vim License (see `:help license`)
 let s:airlineWarning = '#d28e5d'
 let s:airlineModified = '#b9b5f6'
