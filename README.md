@@ -1,7 +1,3 @@
-# ⚠️ This color scheme is no longer actively maintained. If you have the time and interest to maintain this, please email me!
-
----
-
 <h1 align="center">vim-colors-xcode</h1>
 
 <h3 align="center">A number of Xcode 11’s colourschemes, now for Vim!</h3>
