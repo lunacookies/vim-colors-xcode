@@ -229,6 +229,66 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi! link jsonKeyword jsonString
   hi! link jsonKeywordMatch Operator
   hi! link jsonQuote StringDelimiter
+  hi! link lspdiagnosticssignerror ErrorMsg
+  hi! link lspdiagnosticssignhint MoreMsg
+  hi! link lspdiagnosticssigninformation ModeMsg
+  hi! link lspdiagnosticssignwarning WarningMsg
+  hi lspdiagnosticsunderlineerror gui=undercurl guifg=#d12f1b
+  hi lspdiagnosticsunderlineinformation gui=undercurl guifg=#ad3da4
+  hi lspdiagnosticsunderlinewarning gui=undercurl guifg=#78492a
+  hi! link lspdiagnosticsvirtualtexterror ErrorMsg
+  hi! link lspdiagnosticsvirtualtexthint MoreMsg
+  hi! link lspdiagnosticsvirtualtextwarning WarningMsg
+  hi! link lspdiagnosticsfloatingerror ErrorMsg
+  hi! link lspdiagnosticsfloatingwarning WarningMsg
+  hi! link lspdiagnosticsfloatinginformation ModeMsg
+  hi! link lspdiagnosticsfloatinghint MoreMsg
+  hi! link tsliteral Character
+  hi tsannotation guifg=#b4d8fd
+  hi! link tsboolean Boolean
+  hi! link tscharacter Character
+  hi! link tscomment Comment
+  hi! link tsconditional Conditional
+  hi! link tsconstant Constant
+  hi! link tsconstbuiltin Constant
+  hi! link tsconstmacro Macro
+  hi tserror guifg=#262626 guibg=#ffffff gui=bold cterm=bold
+  hi! link tsexception Conditional
+  hi! link tsfield Identifier
+  hi! link tsfloat Float
+  hi! link tsfunction Function
+  hi! link tsfuncbuiltin Function
+  hi! link tsfuncmacro Function
+  hi! link tsinclude Include
+  hi! link tskeyword Keyword
+  hi! link tslabel Label
+  hi! link tsmethod Function
+  hi! link tsnamespace Conditional
+  hi! link tsnumber Number
+  hi! link tsoperator Operator
+  hi! link tsparameterreference Constant
+  hi! link tsproperty tsfield
+  hi! link tspunctdelimiter Normal
+  hi! link tspunctbracket Normal
+  hi! link tspunctspecial Normal
+  hi! link tsrepeat Conditional
+  hi! link tsstring String
+  hi! link tsstringregex Special
+  hi! link tsstringescape Special
+  hi! link tsstrong Normal
+  hi! link tsconstructor Type
+  hi! link tskeywordfunction Type
+  hi! link tsparameter Label
+  hi! link luaTSVariable Normal
+  hi! link tsvariable Identifier
+  hi! link tsvariablebuiltin Conditional
+  hi! link tstag Label
+  hi! link tstagdelimiter Label
+  hi! link tstitle Special
+  hi! link tstype Type
+  hi! link tstypebuiltin Type
+  hi! link tsemphasis Underlined
+  hi telescopematching guifg=#2d8504 guibg=NONE gui=bold cterm=bold
   hi! link rsForeignConst LibraryIdent
   hi! link rsForeignFunc LibraryFunc
   hi! link rsForeignType LibraryType
@@ -565,6 +625,66 @@ if s:t_Co >= 256
   hi! link jsonKeyword jsonString
   hi! link jsonKeywordMatch Operator
   hi! link jsonQuote StringDelimiter
+  hi! link lspdiagnosticssignerror ErrorMsg
+  hi! link lspdiagnosticssignhint MoreMsg
+  hi! link lspdiagnosticssigninformation ModeMsg
+  hi! link lspdiagnosticssignwarning WarningMsg
+  hi lspdiagnosticsunderlineerror gui=undercurl guifg=#d12f1b
+  hi lspdiagnosticsunderlineinformation gui=undercurl guifg=#ad3da4
+  hi lspdiagnosticsunderlinewarning gui=undercurl guifg=#78492a
+  hi! link lspdiagnosticsvirtualtexterror ErrorMsg
+  hi! link lspdiagnosticsvirtualtexthint MoreMsg
+  hi! link lspdiagnosticsvirtualtextwarning WarningMsg
+  hi! link lspdiagnosticsfloatingerror ErrorMsg
+  hi! link lspdiagnosticsfloatingwarning WarningMsg
+  hi! link lspdiagnosticsfloatinginformation ModeMsg
+  hi! link lspdiagnosticsfloatinghint MoreMsg
+  hi! link tsliteral Character
+  hi tsannotation guifg=#b4d8fd
+  hi! link tsboolean Boolean
+  hi! link tscharacter Character
+  hi! link tscomment Comment
+  hi! link tsconditional Conditional
+  hi! link tsconstant Constant
+  hi! link tsconstbuiltin Constant
+  hi! link tsconstmacro Macro
+  hi tserror guifg=#262626 guibg=#ffffff gui=bold cterm=bold
+  hi! link tsexception Conditional
+  hi! link tsfield Identifier
+  hi! link tsfloat Float
+  hi! link tsfunction Function
+  hi! link tsfuncbuiltin Function
+  hi! link tsfuncmacro Function
+  hi! link tsinclude Include
+  hi! link tskeyword Keyword
+  hi! link tslabel Label
+  hi! link tsmethod Function
+  hi! link tsnamespace Conditional
+  hi! link tsnumber Number
+  hi! link tsoperator Operator
+  hi! link tsparameterreference Constant
+  hi! link tsproperty tsfield
+  hi! link tspunctdelimiter Normal
+  hi! link tspunctbracket Normal
+  hi! link tspunctspecial Normal
+  hi! link tsrepeat Conditional
+  hi! link tsstring String
+  hi! link tsstringregex Special
+  hi! link tsstringescape Special
+  hi! link tsstrong Normal
+  hi! link tsconstructor Type
+  hi! link tskeywordfunction Type
+  hi! link tsparameter Label
+  hi! link luaTSVariable Normal
+  hi! link tsvariable Identifier
+  hi! link tsvariablebuiltin Conditional
+  hi! link tstag Label
+  hi! link tstagdelimiter Label
+  hi! link tstitle Special
+  hi! link tstype Type
+  hi! link tstypebuiltin Type
+  hi! link tsemphasis Underlined
+  hi telescopematching guifg=#2d8504 guibg=NONE gui=bold cterm=bold
   hi! link rsForeignConst LibraryIdent
   hi! link rsForeignFunc LibraryFunc
   hi! link rsForeignType LibraryType
