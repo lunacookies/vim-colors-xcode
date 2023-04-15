@@ -1,0 +1,32 @@
+Color: base0        #292a30 ~
+Color: base1        #2f3037 ~
+Color: base2        #393b44 ~
+Color: base3        #414453 ~
+Color: base4        #53606e ~
+Color: base5        #7f8c98 ~
+Color: base6        #a3b1bf ~
+Color: base7        #dfdfe0 ~
+
+Color: deep_blue0   #0f5bca ~
+Color: deep_blue1   #4484d1 ~
+Color: deep_yellow  #fef937 ~
+
+Color: green_wash   #243330 ~
+Color: orange_wash  #382e27 ~
+Color: red_wash     #3b2d2b ~
+
+Color: blue         #4eb0cc ~
+Color: light_blue   #6bdfff ~
+Color: orange       #ffa14f ~
+Color: pink         #ff7ab2 ~
+Color: red          #ff8170 ~
+Color: yellow       #d9c97c ~
+
+Color: purple       #b281eb ~
+Color: light_purple #dabaff ~
+
+Color: teal         #78c2b3 ~
+Color: light_teal   #acf2e4 ~
+
+Color: green        #84b360 ~
+Color: light_green  #b0e687 ~

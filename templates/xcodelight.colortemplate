@@ -3,37 +3,5 @@ Short name:  xcodelight
 Author:      Luna Razzaghipour <lunarazzaghipour@gmail.com>
 Description: A Vim port of the default light Xcode 11 colourscheme
 
-Color: base0       #ffffff ~
-Color: base1       #f4f4f4 ~
-Color: base2       #e5e5e5 ~
-Color: base3       #cdcdcd ~
-Color: base4       #8a99a6 ~
-Color: base5       #5c6873 ~
-Color: base6       #262626 ~
-
-Color: aqua        #b4d8fd ~
-Color: light_aqua  #ecf5ff ~
-
-Color: deep_blue0  #156adf ~
-Color: deep_blue1  #69a7fc ~
-Color: deep_yellow #fef869 ~
-
-Color: green_wash  #edfff0 ~
-Color: red_wash    #fef0f1 ~
-Color: yellow_wash #fdfae6 ~
-
-Color: blue        #0f68a0 ~
-Color: brown       #78492a ~
-Color: dark_blue   #0b4f79 ~
-Color: green       #2d8504 ~
-Color: pink        #ad3da4 ~
-Color: red         #d12f1b ~
-Color: strong_blue #272ad8 ~
-
-Color: dark_purple #4b21b0 ~
-Color: purple      #804fb8 ~
-
-Color: dark_teal   #23575c ~
-Color: teal        #3e8087 ~
-
+Include: _xcodelight_colors
 Include: _xcodelight

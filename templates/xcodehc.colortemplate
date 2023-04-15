@@ -1,0 +1,12 @@
+Full name:   Xcode High Contrast
+Short name:  xcodehc
+Author:      Aramis Razzaghipour <aramisnoah@gmail.com>
+Description: A Vim port of the default Xcode 11 colourschemes
+
+Background: dark
+Include: _xcodedarkhc_colors
+Include: _xcodedark
+
+Background: light
+Include: _xcodelighthc_colors
+Include: _xcodelight
