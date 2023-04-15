@@ -1,7 +1,6 @@
-<h1 align="center">vim-colors-xcode</h1>
+# vim-colors-xcode
 
-<h3 align="center">A number of Xcode 11’s colourschemes, now for Vim!</h3>
-<p align="center"><em>made in <a href="https://github.com/lifepillar/vim-colortemplate">Colortemplate</a>, the Toolkit for Vim Colourscheme Designers</em></p>
+A number of Xcode’s colourschemes, now for (Neo)Vim!
 
 <details>
 <summary>Screenshots</summary>
@@ -162,7 +161,23 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 <details>
 <summary>Usage</summary>
 
-First, add one of the following lines to your Vim configuration:
+First, add one of the following lines to your Vim configuration.
+
+The standard theme:
+
+```viml
+colorscheme xcode
+```
+
+Or the high contrast version:
+
+```viml
+colorscheme xcodehc
+```
+
+Either version will change appearance based on `background`'s value (light or dark).
+
+You may also specify a theme variant specifically, bypassing the automatic `background` feature. This method is the only way to access the `xcodewwdc` theme.
 
 ```viml
 colorscheme xcodedark
@@ -284,5 +299,7 @@ autocmd vim-colors-xcode ColorScheme * hi SpecialComment cterm=italic gui=italic
 ```
 
 </details>
+
+Made in [Colortemplate](https://github.com/lifepillar/vim-colortemplate), the Toolkit for Vim Colourscheme Designers.
 
 The font in the screenshots is [SF Mono](https://developer.apple.com/videos/play/wwdc2016/803/?time=106), which you can download [from Apple’s website](https://developer.apple.com/fonts/).
