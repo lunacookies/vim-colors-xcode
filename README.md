@@ -2,14 +2,7 @@
 
 A number of Xcode’s colourschemes, now for (Neo)Vim!
 
-<details>
-<summary>Screenshots</summary>
-
-![](https://raw.githubusercontent.com/arzg/resources/master/xcodedark.png)
-![](https://raw.githubusercontent.com/arzg/resources/master/xcodelight.png)
-![](https://raw.githubusercontent.com/arzg/resources/master/xcodewwdc.png)
-
-</details>
+![](./xcode-theme-split.png)
 
 <details>
 <summary>High contrast variants are available</summary>
