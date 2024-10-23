@@ -58,6 +58,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   if !exists('g:xcodelight_dim_punctuation')
     let g:xcodelight_dim_punctuation = 1
   endif
+  " support for folke/flash.nvim
+  hi FlashLabel guifg=#1f1f24 guibg=#ad3da4 gui=bold cterm=bold
   hi Normal guifg=#262626 guibg=#ffffff gui=NONE cterm=NONE
   hi Cursor guifg=#ffffff guibg=#262626 gui=NONE cterm=NONE
   hi Empty guifg=#262626 guibg=NONE gui=NONE cterm=NONE
