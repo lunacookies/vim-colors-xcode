@@ -68,6 +68,7 @@ These plugins are specifically supported:
 - [Matchup](https://github.com/andymass/vim-matchup)
 - [Searchlight](https://github.com/PeterRincker/vim-searchlight)
 - [Signify](https://github.com/mhinz/vim-signify)
+- [Flash](https://github.com/folke/flash.nvim)
 
 To get the closest experience to Xcode it is recommended that you use the following configuration for Signify:
 
