@@ -1,7 +1,7 @@
 " Name:         xcodehc
 " Description:  A Vim port of the default Xcode 11 colourschemes
-" Author:       Aramis
-" Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
+" Author:       Luna
+" Maintainer:   Luna Razzaghipour <luna@xoria.org>
 " License:      Vim License (see `:help license`)
 let s:airlineWarning = '#ff8a7a'
 let s:airlineModified = '#e5cfff'
@@ -118,8 +118,8 @@ endfunction
 call airline#themes#xcodehc#refresh()
 " Name:         xcodehc
 " Description:  A Vim port of the default Xcode 11 colourschemes
-" Author:       Aramis
-" Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
+" Author:       Luna
+" Maintainer:   Luna Razzaghipour <luna@xoria.org>
 " License:      Vim License (see `:help license`)
 let s:airlineWarning = '#ad1805'
 let s:airlineModified = '#703daa'

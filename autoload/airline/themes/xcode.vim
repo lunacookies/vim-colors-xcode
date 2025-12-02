@@ -1,7 +1,7 @@
 " Name:         xcode
 " Description:  A Vim port of the default Xcode 11 colourschemes
-" Author:       Aramis
-" Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
+" Author:       Luna
+" Maintainer:   Luna Razzaghipour <luna@xoria.org>
 " License:      Vim License (see `:help license`)
 let s:airlineWarning = '#ff8170'
 let s:airlineModified = '#dabaff'
@@ -118,8 +118,8 @@ endfunction
 call airline#themes#xcode#refresh()
 " Name:         xcode
 " Description:  A Vim port of the default Xcode 11 colourschemes
-" Author:       Aramis
-" Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
+" Author:       Luna
+" Maintainer:   Luna Razzaghipour <luna@xoria.org>
 " License:      Vim License (see `:help license`)
 let s:airlineWarning = '#d12f1b'
 let s:airlineModified = '#804fb8'

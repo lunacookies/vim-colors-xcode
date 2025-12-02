@@ -1,7 +1,7 @@
 " Name:         xcodedarkhc
 " Description:  A Vim port of the high contrast dark Xcode 11 colourscheme
 " Author:       Luna
-" Maintainer:   Luna Razzaghipour <lunarazzaghipour@gmail.com>
+" Maintainer:   Luna Razzaghipour <luna@xoria.org>
 " License:      Vim License (see `:help license`)
 let s:airlineWarning = '#ff8a7a'
 let s:airlineModified = '#e5cfff'

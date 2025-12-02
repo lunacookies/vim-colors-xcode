@@ -1,7 +1,7 @@
 " Name:         xcodedark
 " Description:  A Vim port of the default dark Xcode 11 colourscheme
 " Author:       Luna
-" Maintainer:   Luna Razzaghipour <lunarazzaghipour@gmail.com>
+" Maintainer:   Luna Razzaghipour <luna@xoria.org>
 " License:      Vim License (see `:help license`)
 let s:airlineWarning = '#ff8170'
 let s:airlineModified = '#dabaff'

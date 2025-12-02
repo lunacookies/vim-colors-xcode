@@ -1,7 +1,7 @@
 " Name:         xcodelight
 " Description:  A Vim port of the default light Xcode 11 colourscheme
 " Author:       Luna
-" Maintainer:   Luna Razzaghipour <lunarazzaghipour@gmail.com>
+" Maintainer:   Luna Razzaghipour <luna@xoria.org>
 " License:      Vim License (see `:help license`)
 let s:airlineWarning = '#d12f1b'
 let s:airlineModified = '#804fb8'

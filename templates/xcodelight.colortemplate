@@ -1,6 +1,6 @@
 Full name:   Xcode Light
 Short name:  xcodelight
-Author:      Luna Razzaghipour <lunarazzaghipour@gmail.com>
+Author:      Luna Razzaghipour <luna@xoria.org>
 Description: A Vim port of the default light Xcode 11 colourscheme
 
 Include: _xcodelight_colors
