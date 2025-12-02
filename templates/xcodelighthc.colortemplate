@@ -3,5 +3,6 @@ Short name:  xcodelighthc
 Author:      Luna Razzaghipour <luna@xoria.org>
 Description: A Vim port of the high contrast light Xcode 11 colourscheme
 
+Include: _docs
 Include: _xcodelighthc_colors
 Include: _xcodelight

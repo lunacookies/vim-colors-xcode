@@ -14,6 +14,25 @@ let g:colors_name = 'xcodedarkhc'
 
 let s:t_Co = has('gui_running') ? -1 : get(g:, 'xcodedarkhc_t_Co', get(g:, 't_Co', exists('&t_Co') ? +&t_Co : 0))
 
+if !exists('g:xcodedarkhc_green_comments')
+  let g:xcodedarkhc_green_comments = 0
+endif
+if !exists('g:xcodedarkhc_emph_types')
+  let g:xcodedarkhc_emph_types = 1
+endif
+if !exists('g:xcodedarkhc_emph_funcs')
+  let g:xcodedarkhc_emph_funcs = 0
+endif
+if !exists('g:xcodedarkhc_emph_idents')
+  let g:xcodedarkhc_emph_idents = 0
+endif
+if !exists('g:xcodedarkhc_match_paren_style')
+  let g:xcodedarkhc_match_paren_style = 0
+endif
+if !exists('g:xcodedarkhc_dim_punctuation')
+  let g:xcodedarkhc_dim_punctuation = 1
+endif
+
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#43454b', '#ff8a7a', '#83c9bc', '#d9c668', '#4ec4e6', '#ff85b8', '#cda1ff', '#ffffff', '#838991', '#ff8a7a', '#b1faeb', '#ffa14f', '#6bdfff', '#ff85b8', '#e5cfff', '#ffffff']
 endif

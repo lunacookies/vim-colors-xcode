@@ -3,5 +3,6 @@ Short name:  xcodedarkhc
 Author:      Luna Razzaghipour <luna@xoria.org>
 Description: A Vim port of the high contrast dark Xcode 11 colourscheme
 
+Include: _docs
 Include: _xcodedarkhc_colors
 Include: _xcodedark

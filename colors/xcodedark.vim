@@ -14,6 +14,25 @@ let g:colors_name = 'xcodedark'
 
 let s:t_Co = has('gui_running') ? -1 : get(g:, 'xcodedark_t_Co', get(g:, 't_Co', exists('&t_Co') ? +&t_Co : 0))
 
+if !exists('g:xcodedark_green_comments')
+  let g:xcodedark_green_comments = 0
+endif
+if !exists('g:xcodedark_emph_types')
+  let g:xcodedark_emph_types = 1
+endif
+if !exists('g:xcodedark_emph_funcs')
+  let g:xcodedark_emph_funcs = 0
+endif
+if !exists('g:xcodedark_emph_idents')
+  let g:xcodedark_emph_idents = 0
+endif
+if !exists('g:xcodedark_match_paren_style')
+  let g:xcodedark_match_paren_style = 0
+endif
+if !exists('g:xcodedark_dim_punctuation')
+  let g:xcodedark_dim_punctuation = 1
+endif
+
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#414453', '#ff8170', '#78c2b3', '#d9c97c', '#4eb0cc', '#ff7ab2', '#b281eb', '#dfdfe0', '#7f8c98', '#ff8170', '#acf2e4', '#ffa14f', '#6bdfff', '#ff7ab2', '#dabaff', '#dfdfe0']
 endif
