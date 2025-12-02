@@ -7,15 +7,15 @@ A number of Xcode’s colourschemes, now for (Neo)Vim!
 <details>
 <summary>High contrast variants are available</summary>
 
-| `xcodedark`                                                                                 | `xcodedarkhc` (high-contrast)                                                                 |
-| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodedark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodedarkhc.png) |
+| `xcodedark`                                                                                        | `xcodedarkhc` (high-contrast)                                                                        |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-comparison/xcodedark.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-comparison/xcodedarkhc.png) |
 
 ---
 
-| `xcodelight`                                                                                 | `xcodelighthc` (high-contrast)                                                                 |
-| -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodelight.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-comparison/xcodelighthc.png) |
+| `xcodelight`                                                                                        | `xcodelighthc` (high-contrast)                                                                        |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-comparison/xcodelight.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-comparison/xcodelighthc.png) |
 
 </details>
 
@@ -25,13 +25,13 @@ A number of Xcode’s colourschemes, now for (Neo)Vim!
 Use your favorite runtimepath/plugin manager. If you don’t have one, I recommend [Plug](https://github.com/junegunn/vim-plug):
 
 ```viml
-Plug 'arzg/vim-colors-xcode'
+Plug 'lunacookies/vim-colors-xcode'
 ```
 
 Or, alternatively, you can install the old-fashioned way by copying the relevant directories right into `~/.vim`:
 
 ```console
-$ git clone https://github.com/arzg/vim-colors-xcode.git
+$ git clone https://github.com/lunacookies/vim-colors-xcode.git
 $ cp -r vim-colors-xcode/{autoload,colors,doc} ~/.vim
 ```
 
@@ -51,9 +51,9 @@ These colourschemes have been carefully tuned for the following language plugins
 - JavaScript ([pangloss/vim-javascript](https://github.com/pangloss/vim-javascript))
 - Jinja 2 ([Glench/Vim-Jinja2-Syntax](https://github.com/Glench/Vim-Jinja2-Syntax))
 - Markdown ([tpope/vim-markdown](https://github.com/tpope/vim-markdown))
-- Rust ([arzg/vim-rust-syntax-ext](https://github.com/arzg/vim-rust-syntax-ext))
+- Rust ([lunacookies/vim-rust-syntax-ext](https://github.com/lunacookies/vim-rust-syntax-ext))
 - SCSS ([cakebaker/scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim))
-- Swift ([arzg/vim-swift](https://github.com/arzg/vim-swift))
+- Swift ([lunacookies/vim-swift](https://github.com/lunacookies/vim-swift))
 - TypeScript ([HerringtonDarkholme/yats.vim](https://github.com/HerringtonDarkholme/yats.vim))
 - Vim help (built-in)
 - VimL (built-in)
@@ -104,10 +104,10 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 - This option does not exist in the WWDC colourscheme
 - The default value is `0`
 
-| <sup>`green_comments`</sup> | Dark                                                                                | Light                                                                                |
-| --------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| `0`                         | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-0-light.png) |
-| `1`                         | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-green-1-light.png) |
+| <sup>`green_comments`</sup> | Dark                                                                                       | Light                                                                                       |
+| --------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| `0`                         | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-green-0-dark.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-green-0-light.png) |
+| `1`                         | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-green-1-dark.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-green-1-light.png) |
 
 </details>
 
@@ -117,10 +117,10 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 - This option is available in all colourschemes
 - The default value is `1`
 
-| <sup>`dim_punctuation`</sup> | Dark                                                                              | Light                                                                              |
-| ---------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| `0`                          | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-0-light.png) |
-| `1`                          | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-dim-1-light.png) |
+| <sup>`dim_punctuation`</sup> | Dark                                                                                     | Light                                                                                     |
+| ---------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `0`                          | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-dim-0-dark.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-dim-0-light.png) |
+| `1`                          | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-dim-1-dark.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-dim-1-light.png) |
 
 </details>
 
@@ -130,11 +130,11 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 - This option is available in all colourschemes
 - The default values are `1`, `0` and `0`, for `emph_types`, `emph_funcs` and `emph_idents` respectively
 
-| <sup>`emph_types`, `emph_funcs`, `emph_idents`</sup> | Dark                                                                                                 | Light                                                                                                 |
-| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `1`,<br>`0`,<br>`0`                                  | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-1-funcs-0-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-1-funcs-0-idents-0-light.png) |
-| `0`,<br>`1`,<br>`0`                                  | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-0-light.png) |
-| `0`,<br>`1`,<br>`1`                                  | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-types-0-funcs-1-idents-1-light.png) |
+| <sup>`emph_types`, `emph_funcs`, `emph_idents`</sup> | Dark                                                                                                        | Light                                                                                                        |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `1`,<br>`0`,<br>`0`                                  | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-types-1-funcs-0-idents-0-dark.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-types-1-funcs-0-idents-0-light.png) |
+| `0`,<br>`1`,<br>`0`                                  | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-types-0-funcs-1-idents-0-dark.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-types-0-funcs-1-idents-0-light.png) |
+| `0`,<br>`1`,<br>`1`                                  | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-types-0-funcs-1-idents-1-dark.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-types-0-funcs-1-idents-1-light.png) |
 
 </details>
 
@@ -144,10 +144,10 @@ _Note that I’ve only added screenshots of the light and dark variants for the 
 - This option is available in all colourschemes
 - The default value is `0`
 
-| <sup>`match_paren_style`</sup> | Dark                                                                                     | Light                                                                                     |
-| ------------------------------ | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| `0`                            | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-0-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-0-light.png) |
-| `1`                            | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-1-dark.png) | ![](https://raw.githubusercontent.com/arzg/resources/master/xcode-matchparen-1-light.png) |
+| <sup>`match_paren_style`</sup> | Dark                                                                                            | Light                                                                                            |
+| ------------------------------ | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `0`                            | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-matchparen-0-dark.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-matchparen-0-light.png) |
+| `1`                            | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-matchparen-1-dark.png) | ![](https://raw.githubusercontent.com/lunacookies/resources/master/xcode-matchparen-1-light.png) |
 
 </details>
 </details>
