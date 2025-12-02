@@ -3,6 +3,8 @@ Short name:  xcodehc
 Author:      Aramis Razzaghipour <aramisnoah@gmail.com>
 Description: A Vim port of the default Xcode 11 colourschemes
 
+Include: _docs
+
 Background: dark
 Include: _xcodedarkhc_colors
 Include: _xcodedark

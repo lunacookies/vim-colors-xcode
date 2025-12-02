@@ -6,13 +6,7 @@ Description: The colours from WWDC 2016’s marketing material
 Background: dark
 Neovim:     yes
 
-Include: _doc_header
-Include: _green_comments
-Include: _emph_types
-Include: _emph_funcs
-Include: _emph_idents
-Include: _match_paren_style
-Include: _dim_punctuation
+Include: _docs
 
 ;
 ; Palette
